@@ -1,0 +1,126 @@
+
+(rules PCB Amplificatore
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3068)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.9)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 300.0)
+    (clear 300.2)
+    (clear 150.0 (type smd_to_turn_gap))
+    (clear 500.2 (type default_FILAMENTO))
+    (clear 1000.2 (type default_HV))
+    (clear 75.0 (type smd_smd))
+    (clear 500.2 (type smd_FILAMENTO))
+    (clear 1000.2 (type smd_HV))
+    (clear 500.2 (type "kicad_default"_FILAMENTO))
+    (clear 1000.2 (type "kicad_default"_HV))
+    (clear 500.2 (type FILAMENTO_FILAMENTO))
+    (clear 1000.2 (type FILAMENTO_HV))
+    (clear 1000.2 (type HV_HV))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-FILAMENTO" "Via[0-1]_800:400_um" FILAMENTO
+  )
+  (via 
+    "Via[0-1]_800:400_um-HV" "Via[0-1]_800:400_um" HV
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    FILAMENTO "Via[0-1]_800:400_um-FILAMENTO"
+  )
+  (via_rule
+    HV "Via[0-1]_800:400_um-HV"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(C1-Pad2)" "Net-(C1-Pad1)" GND "Net-(C3-Pad1)" "Net-(R2-Pad2)" "Net-(C7-Pad1)" "Net-(C10-Pad2)" "Net-(C11-Pad1)"
+    "Net-(R10-Pad2)" "Net-(C12-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad1)" "Net-(J2-Pad2)" "Net-(R12-Pad1)" "Net-(R13-Pad1)" "Net-(R16-Pad1)"
+    "Net-(C13-Pad2)" "Net-(C14-Pad1)" "Net-(C15-Pad2)" "Net-(J3-Pad1)" "Net-(K3-Pad4)" "Net-(K3-Pad2)" /Mute "/FILTRO_IN"
+    "Net-(C16-Pad1)" "Net-(C17-Pad1)" "Net-(C18-Pad1)" "Net-(C19-Pad1)" "Net-(C20-Pad1)" "Net-(C21-Pad2)" "Net-(C22-Pad2)" "Net-(J5-Pad3)"
+    "Net-(J7-Pad2)" "Net-(J8-Pad1)" "Net-(R23-Pad1)" Earth /VEE /VDD "/SR_SW" "/LEAD_SW"
+    "/RITHM-SW" "Net-(J13-Pad3)" "Net-(J13-Pad2)" "Net-(J13-Pad1)" "Net-(J14-Pad2)" "Net-(R29-Pad1)" "Net-(R30-Pad2)" "Net-(C27-Pad2)"
+    "Net-(C27-Pad1)" "Net-(J15-Pad3)" "Net-(J15-Pad1)" "Net-(C28-Pad2)" "Net-(C28-Pad1)" "Net-(C30-Pad2)" "Net-(C30-Pad1)" "Net-(K1-Pad3)"
+    "Net-(K4-Pad3)" "Net-(R21-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class FILAMENTO
+    /FIL1+ "/FIL1-" /FIL2+ "/FIL2-"
+    (clearance_class FILAMENTO)
+    (via_rule FILAMENTO)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class HV
+    "/HVCC1_B" "/HVCC1_C" "/HVCC2_A" "/HVCC2_D" "/HVCC2_E" /HVCC1 /HVCC2
+    (clearance_class HV)
+    (via_rule HV)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

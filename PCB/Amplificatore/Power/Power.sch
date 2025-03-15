@@ -1,0 +1,675 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1500 6350 1100 900 
+U 612E8A4A
+F0 "HV_Power" 50
+F1 "HV_POWER.sch" 50
+$EndSheet
+$Sheet
+S 2800 6350 1100 900 
+U 615349CD
+F0 "FILAMENTO_1" 50
+F1 "FILAMENTO_1.sch" 50
+$EndSheet
+$Sheet
+S 4100 6350 1100 900 
+U 613F1FA9
+F0 "FILAMENTO_2" 50
+F1 "FILAMENTO_2.sch" 50
+$EndSheet
+Wire Wire Line
+	2000 1050 1650 1050
+Text GLabel 1650 1050 0    50   Input ~ 0
+FASE
+Text GLabel 1750 1850 0    50   Input ~ 0
+NEUTRO
+Wire Wire Line
+	1750 1850 2000 1850
+$Comp
+L Utilizzati:FS24-500 T?
+U 1 1 613F7AAF
+P 2300 1450
+AR Path="/613F1FA9/613F7AAF" Ref="T?"  Part="1" 
+AR Path="/613F7AAF" Ref="T1"  Part="1" 
+F 0 "T1" H 2300 2040 50  0000 C CNN
+F 1 "FS24-500" H 2300 1949 50  0000 C CNN
+F 2 "Transformer_THT:TRANSFORMER_FS24-500" H 2300 1450 50  0001 L BNN
+F 3 "" H 2300 1450 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 2300 1450 50  0001 L BNN "STANDARD"
+F 5 "Triad" H 2300 1450 50  0001 L BNN "MANUFACTURER"
+F 6 "FS24-500" H 2300 2130 50  0001 C CNN "PN"
+F 7 "M: 553-FS24-500" H 2300 2039 50  0001 C CNN "FORNITORI"
+F 8 "Trasformatori di potenza POWER XFMR 24.0Vct@0.500A UL/cUL 115/230V SPLIT PACK PCB MOUNT" H 2300 1948 50  0001 C CNN "NOTE"
+	1    2300 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1350 2000 1550
+Text GLabel 3100 1050 2    50   Input ~ 0
+12VAC1
+Text GLabel 3100 1350 2    50   Input ~ 0
+COM_12VAC1
+Wire Wire Line
+	2600 1050 3100 1050
+Wire Wire Line
+	2600 1350 3100 1350
+Text GLabel 3100 1550 2    50   Input ~ 0
+12VAC2
+Text GLabel 3100 1850 2    50   Input ~ 0
+COM_12VAC2
+Wire Wire Line
+	2600 1550 3100 1550
+Wire Wire Line
+	2600 1850 3100 1850
+$Comp
+L power:Earth_Clean #PWR?
+U 1 1 614AB548
+P 2450 3900
+AR Path="/612E8A4A/614AB548" Ref="#PWR?"  Part="1" 
+AR Path="/615349CD/614AB548" Ref="#PWR?"  Part="1" 
+AR Path="/613F1FA9/614AB548" Ref="#PWR?"  Part="1" 
+AR Path="/614AB548" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2700 3900 50  0001 C CNN
+F 1 "Earth_Clean" H 2750 3750 50  0001 C CNN
+F 2 "" H 2450 3850 50  0001 C CNN
+F 3 "~" H 2450 3850 50  0001 C CNN
+	1    2450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 614ACD74
+P 2900 3900
+AR Path="/615349CD/614ACD74" Ref="#PWR?"  Part="1" 
+AR Path="/614ACD74" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 2900 3650 50  0001 C CNN
+F 1 "GND1" H 2905 3727 50  0000 C CNN
+F 2 "" H 2900 3900 50  0001 C CNN
+F 3 "" H 2900 3900 50  0001 C CNN
+	1    2900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth_Protective #PWR0103
+U 1 1 614ACE95
+P 1850 3900
+F 0 "#PWR0103" H 2100 3650 50  0001 C CNN
+F 1 "Earth_Protective" H 2300 3750 50  0001 C CNN
+F 2 "" H 1850 3800 50  0001 C CNN
+F 3 "~" H 1850 3800 50  0001 C CNN
+	1    1850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 614ADB40
+P 2050 3700
+F 0 "JP1" H 2050 3813 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 2050 3814 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 2050 3700 50  0001 C CNN
+F 3 "~" H 2050 3700 50  0001 C CNN
+	1    2050 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3900 1850 3700
+Wire Wire Line
+	1850 3700 1900 3700
+Wire Wire Line
+	2450 3900 2450 3700
+Wire Wire Line
+	2450 3700 2200 3700
+Wire Wire Line
+	2450 3700 2500 3700
+Connection ~ 2450 3700
+Wire Wire Line
+	2900 3900 2900 3700
+Wire Wire Line
+	2900 3700 2800 3700
+$Comp
+L Utilizzati:Molex_MicroFit_2x3 J?
+U 1 1 614C0348
+P 8550 1250
+AR Path="/615349CD/614C0348" Ref="J?"  Part="1" 
+AR Path="/614C0348" Ref="J3"  Part="1" 
+F 0 "J3" H 8600 1567 50  0000 C CNN
+F 1 "Molex_MicroFit_2x3" H 8600 1748 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" H 8550 1250 50  0001 C CNN
+F 3 "~" H 8550 1250 50  0001 C CNN
+F 4 "206832-0601" H 8600 1476 50  0000 C CNN "PN"
+F 5 "M: 538-206832-0601" H 8600 1566 50  0001 C CNN "FORNITORI"
+F 6 "MOLEX, Serie Micro-Fit Plus 2x3 Verticale" H 8600 1475 50  0001 C CNN "NOTE"
+	1    8550 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8100 1150 0    50   Input ~ 0
+LED-RED-A
+Text GLabel 8100 1250 0    50   Input ~ 0
+LED-GREEN-A
+Wire Wire Line
+	8100 1150 8350 1150
+Wire Wire Line
+	8100 1250 8350 1250
+Wire Wire Line
+	8850 1150 9050 1150
+Wire Wire Line
+	9050 1150 9050 1250
+Wire Wire Line
+	8850 1250 9050 1250
+Connection ~ 9050 1250
+Wire Wire Line
+	9050 1250 9050 1350
+Wire Wire Line
+	8850 1350 9050 1350
+Connection ~ 9050 1350
+Wire Wire Line
+	9050 1350 9050 1700
+Text GLabel 8100 1350 0    50   Input ~ 0
+HVENA
+Wire Wire Line
+	8100 1350 8350 1350
+$Comp
+L power:GND1 #PWR?
+U 1 1 614C035C
+P 9050 1700
+AR Path="/615349CD/614C035C" Ref="#PWR?"  Part="1" 
+AR Path="/614C035C" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 9050 1450 50  0001 C CNN
+F 1 "GND1" H 9055 1527 50  0000 C CNN
+F 2 "" H 9050 1700 50  0001 C CNN
+F 3 "" H 9050 1700 50  0001 C CNN
+	1    9050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 614DF71F
+P 8350 3350
+AR Path="/614DF71F" Ref="R22"  Part="1" 
+AR Path="/612E8A4A/614DF71F" Ref="R?"  Part="1" 
+AR Path="/615349CD/614DF71F" Ref="R?"  Part="1" 
+F 0 "R22" V 8150 3450 50  0000 R CNN
+F 1 "1K" V 8250 3450 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8280 3350 50  0001 C CNN
+F 3 "~" H 8350 3350 50  0001 C CNN
+F 4 "CRCW08051K00FKEAC" H 8350 3350 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08051K00FKEAC" H 8350 3350 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 1Kohms 1% Commercial Use" H 8350 3350 50  0001 C CNN "NOTE"
+	1    8350 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 614DF728
+P 8050 3350
+AR Path="/614DF728" Ref="R21"  Part="1" 
+AR Path="/612E8A4A/614DF728" Ref="R?"  Part="1" 
+AR Path="/615349CD/614DF728" Ref="R?"  Part="1" 
+F 0 "R21" V 8250 3400 50  0000 R CNN
+F 1 "2K2" V 8150 3450 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7980 3350 50  0001 C CNN
+F 3 "~" H 8050 3350 50  0001 C CNN
+F 4 "ERJ-U06J222V" H 8050 3350 50  0001 C CNN "PN"
+F 5 "M: 667-ERJ-U06J222V" H 8050 3350 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 2K2 ohms 1% Commercial Use" H 8050 3350 50  0001 C CNN "NOTE"
+	1    8050 3350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 9300 4000 2    50   Input ~ 0
+ENA-HV+
+$Comp
+L Device:R R24
+U 1 1 614DF733
+P 9050 4000
+AR Path="/614DF733" Ref="R24"  Part="1" 
+AR Path="/612E8A4A/614DF733" Ref="R?"  Part="1" 
+AR Path="/615349CD/614DF733" Ref="R?"  Part="1" 
+F 0 "R24" V 8850 4100 50  0000 R CNN
+F 1 "1K" V 8950 4100 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8980 4000 50  0001 C CNN
+F 3 "~" H 9050 4000 50  0001 C CNN
+F 4 "CRCW08051K00FKEAC" H 9050 4000 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08051K00FKEAC" H 9050 4000 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 1Kohms 1% Commercial Use" H 9050 4000 50  0001 C CNN "NOTE"
+	1    9050 4000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9200 4000 9300 4000
+$Comp
+L Device:R R23
+U 1 1 614DF73D
+P 8750 3750
+AR Path="/614DF73D" Ref="R23"  Part="1" 
+AR Path="/612E8A4A/614DF73D" Ref="R?"  Part="1" 
+AR Path="/615349CD/614DF73D" Ref="R?"  Part="1" 
+F 0 "R23" V 8550 3850 50  0000 R CNN
+F 1 "1K" V 8650 3850 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8680 3750 50  0001 C CNN
+F 3 "~" H 8750 3750 50  0001 C CNN
+F 4 "CRCW08051K00FKEAC" H 8750 3750 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08051K00FKEAC" H 8750 3750 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 1Kohms 1% Commercial Use" H 8750 3750 50  0001 C CNN "NOTE"
+	1    8750 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 4000 8750 4000
+Wire Wire Line
+	8750 3900 8750 4000
+Connection ~ 8750 4000
+Wire Wire Line
+	8750 4000 8350 4000
+Wire Wire Line
+	8750 3600 8750 3550
+Wire Wire Line
+	8750 3550 9050 3550
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 614DF74B
+P 8150 4000
+AR Path="/615349CD/614DF74B" Ref="Q?"  Part="1" 
+AR Path="/614DF74B" Ref="Q4"  Part="1" 
+F 0 "Q4" H 8355 4046 50  0000 L CNN
+F 1 "BSS138" H 8355 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8350 3925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 8150 4000 50  0001 L CNN
+	1    8150 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 614DF751
+P 8050 4400
+AR Path="/615349CD/614DF751" Ref="#PWR?"  Part="1" 
+AR Path="/614DF751" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 8050 4150 50  0001 C CNN
+F 1 "GND1" H 8055 4227 50  0000 C CNN
+F 2 "" H 8050 4400 50  0001 C CNN
+F 3 "" H 8050 4400 50  0001 C CNN
+	1    8050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4000 8350 3500
+Connection ~ 8350 4000
+Wire Wire Line
+	8050 3200 8050 3000
+Wire Wire Line
+	8050 3000 8350 3000
+Wire Wire Line
+	8350 2750 8350 3000
+Connection ~ 8350 3000
+Wire Wire Line
+	8350 3000 8350 3200
+Text GLabel 7700 3650 0    50   Input ~ 0
+LED-RED-A
+Wire Wire Line
+	8050 4200 8050 4400
+Wire Wire Line
+	8050 3500 8050 3650
+Wire Wire Line
+	7700 3650 8050 3650
+Connection ~ 8050 3650
+Wire Wire Line
+	8050 3650 8050 3800
+Text GLabel 9050 3550 2    50   Input ~ 0
+LED-GREEN-A
+$Comp
+L Utilizzati:Molex_MicroFit_2x3 J?
+U 1 1 61614D4C
+P 5350 1200
+AR Path="/612E8A4A/61614D4C" Ref="J?"  Part="1" 
+AR Path="/61614D4C" Ref="J1"  Part="1" 
+F 0 "J1" H 5400 1517 50  0000 C CNN
+F 1 "Molex_MicroFit_2x3" H 5400 1698 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" H 5350 1200 50  0001 C CNN
+F 3 "~" H 5350 1200 50  0001 C CNN
+F 4 "206832-0601" H 5400 1426 50  0000 C CNN "PN"
+F 5 "M: 538-206832-0601" H 5400 1516 50  0001 C CNN "FORNITORI"
+F 6 "MOLEX, Serie Micro-Fit Plus 2x3 Verticale" H 5400 1425 50  0001 C CNN "NOTE"
+	1    5350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Utilizzati:Molex_MicroFit_2x3 J?
+U 1 1 61614D55
+P 5400 2350
+AR Path="/612E8A4A/61614D55" Ref="J?"  Part="1" 
+AR Path="/61614D55" Ref="J2"  Part="1" 
+F 0 "J2" H 5450 2667 50  0000 C CNN
+F 1 "Molex_MicroFit_2x3" H 5450 2848 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" H 5400 2350 50  0001 C CNN
+F 3 "~" H 5400 2350 50  0001 C CNN
+F 4 "206832-0601" H 5450 2576 50  0000 C CNN "PN"
+F 5 "M: 538-206832-0601" H 5450 2666 50  0001 C CNN "FORNITORI"
+F 6 "MOLEX, Serie Micro-Fit Plus 2x3 Verticale" H 5450 2575 50  0001 C CNN "NOTE"
+	1    5400 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 1300 0    50   Input ~ 0
+HV_VALVE_A
+Text GLabel 4900 2450 0    50   Input ~ 0
+HV_VALVE_B
+Wire Wire Line
+	4800 1300 5150 1300
+Wire Wire Line
+	4900 2450 5200 2450
+$Comp
+L power:Earth_Clean #PWR?
+U 1 1 61614D5F
+P 5850 1400
+AR Path="/612E8A4A/61614D5F" Ref="#PWR?"  Part="1" 
+AR Path="/61614D5F" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 6100 1400 50  0001 C CNN
+F 1 "Earth_Clean" H 6150 1250 50  0001 C CNN
+F 2 "" H 5850 1350 50  0001 C CNN
+F 3 "~" H 5850 1350 50  0001 C CNN
+	1    5850 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1300 5850 1300
+Wire Wire Line
+	5850 1300 5850 1400
+$Comp
+L power:Earth_Clean #PWR?
+U 1 1 61614D67
+P 5900 2600
+AR Path="/612E8A4A/61614D67" Ref="#PWR?"  Part="1" 
+AR Path="/61614D67" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 6150 2600 50  0001 C CNN
+F 1 "Earth_Clean" H 6200 2450 50  0001 C CNN
+F 2 "" H 5900 2550 50  0001 C CNN
+F 3 "~" H 5900 2550 50  0001 C CNN
+	1    5900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2450 5900 2600
+Wire Wire Line
+	5700 2450 5900 2450
+$Comp
+L power:Earth_Protective #PWR?
+U 1 1 61614D6F
+P 5100 1550
+AR Path="/612E8A4A/61614D6F" Ref="#PWR?"  Part="1" 
+AR Path="/61614D6F" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 5350 1300 50  0001 C CNN
+F 1 "Earth_Protective" H 5550 1400 50  0001 C CNN
+F 2 "" H 5100 1450 50  0001 C CNN
+F 3 "~" H 5100 1450 50  0001 C CNN
+	1    5100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1550 5100 1450
+Wire Wire Line
+	5100 1200 5150 1200
+Wire Wire Line
+	5100 1450 5700 1450
+Wire Wire Line
+	5700 1450 5700 1200
+Wire Wire Line
+	5700 1200 5650 1200
+Connection ~ 5100 1450
+Wire Wire Line
+	5100 1450 5100 1200
+$Comp
+L power:Earth_Protective #PWR?
+U 1 1 61614D7C
+P 5100 2750
+AR Path="/612E8A4A/61614D7C" Ref="#PWR?"  Part="1" 
+AR Path="/61614D7C" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 5350 2500 50  0001 C CNN
+F 1 "Earth_Protective" H 5550 2600 50  0001 C CNN
+F 2 "" H 5100 2650 50  0001 C CNN
+F 3 "~" H 5100 2650 50  0001 C CNN
+	1    5100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2750 5100 2650
+Wire Wire Line
+	5100 2350 5200 2350
+Wire Wire Line
+	5100 2650 5750 2650
+Wire Wire Line
+	5750 2650 5750 2350
+Wire Wire Line
+	5750 2350 5700 2350
+Connection ~ 5100 2650
+Wire Wire Line
+	5100 2650 5100 2350
+$Comp
+L power:GND1 #PWR?
+U 1 1 61614D89
+P 6050 1150
+AR Path="/615349CD/61614D89" Ref="#PWR?"  Part="1" 
+AR Path="/612E8A4A/61614D89" Ref="#PWR?"  Part="1" 
+AR Path="/61614D89" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 6050 900 50  0001 C CNN
+F 1 "GND1" H 6055 977 50  0000 C CNN
+F 2 "" H 6050 1150 50  0001 C CNN
+F 3 "" H 6050 1150 50  0001 C CNN
+	1    6050 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1100 6050 1100
+Wire Wire Line
+	6050 1100 6050 1150
+$Comp
+L power:GND1 #PWR?
+U 1 1 61614D91
+P 6100 2300
+AR Path="/615349CD/61614D91" Ref="#PWR?"  Part="1" 
+AR Path="/612E8A4A/61614D91" Ref="#PWR?"  Part="1" 
+AR Path="/61614D91" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 6100 2050 50  0001 C CNN
+F 1 "GND1" H 6105 2127 50  0000 C CNN
+F 2 "" H 6100 2300 50  0001 C CNN
+F 3 "" H 6100 2300 50  0001 C CNN
+	1    6100 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2250 6100 2300
+Text GLabel 4800 1100 0    50   Input ~ 0
+FIL1+
+Wire Wire Line
+	4800 1100 5150 1100
+Text GLabel 4850 2250 0    50   Input ~ 0
+FIL2+
+Wire Wire Line
+	4850 2250 5200 2250
+Wire Wire Line
+	5700 2250 6100 2250
+Wire Wire Line
+	8750 4000 8750 4250
+Text GLabel 8350 2750 1    50   Input ~ 0
+VCC_9V
+Text GLabel 8750 4250 3    50   Input ~ 0
+HVENA
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2
+U 1 1 61793218
+P 2650 3700
+F 0 "JP2" H 2650 3813 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 2650 3814 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 2650 3700 50  0001 C CNN
+F 3 "~" H 2650 3700 50  0001 C CNN
+	1    2650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Utilizzati:TE_282837-3 J4
+U 1 1 613CB4ED
+P 2200 4900
+F 0 "J4" H 2492 5165 50  0000 C CNN
+F 1 "TE_282837-3" H 2492 5074 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_282837-3" H 2850 5000 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7100371P" H 2850 4900 50  0001 L CNN
+F 4 "Fixed Terminal Blocks 5.08MM PCB MOUNT 3P" H 2850 4800 50  0001 L CNN "NOTE"
+F 5 "TE Connectivity" H 2850 4600 50  0001 L CNN "Manufacturer_Name"
+F 6 "282837-3" H 2850 4500 50  0001 L CNN "PN"
+F 7 "M: 571-2828373" H 2850 4400 50  0001 L CNN "FORNITORI"
+	1    2200 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:Earth_Protective #PWR0123
+U 1 1 613D0106
+P 2500 5350
+F 0 "#PWR0123" H 2750 5100 50  0001 C CNN
+F 1 "Earth_Protective" H 2950 5200 50  0001 C CNN
+F 2 "" H 2500 5250 50  0001 C CNN
+F 3 "~" H 2500 5250 50  0001 C CNN
+	1    2500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5000 2500 5000
+Wire Wire Line
+	2500 5000 2500 5350
+Text GLabel 2900 4900 2    50   Input ~ 0
+FASE
+Wire Wire Line
+	2200 4900 2900 4900
+Text GLabel 2900 5100 2    50   Input ~ 0
+NEUTRO
+Wire Wire Line
+	2200 5100 2900 5100
+Wire Wire Line
+	2050 2300 1700 2300
+Text GLabel 1800 2800 0    50   Input ~ 0
+NEUTRO
+Wire Wire Line
+	1800 2800 2050 2800
+Text GLabel 1700 2300 0    50   Input ~ 0
+FASE
+$Comp
+L Utilizzati:Transformer_FP230-25 T2
+U 1 1 613F3B9B
+P 2350 2700
+AR Path="/613F3B9B" Ref="T2"  Part="1" 
+AR Path="/612E8A4A/613F3B9B" Ref="T?"  Part="1" 
+F 0 "T2" H 2350 3190 50  0000 C CNN
+F 1 "Transformer_FP230-25" H 2150 2200 50  0001 L BNN
+F 2 "Transformer_THT:XFMR_FP230-25" H 2350 2700 50  0001 L BNN
+F 3 "" H 2350 2700 50  0001 L BNN
+F 4 "Triad Magnetics" H 2350 2700 50  0001 L BNN "MANUFACTURER"
+F 5 "Manufacturer Recommendations" H 2350 2700 50  0001 L BNN "STANDARD"
+F 6 "FP230-25" H 2350 2700 50  0001 C CNN "PN"
+F 7 "M: 553-FP230-25" H 2350 2700 50  0001 C CNN "FORNITORI"
+F 8 "Trasformatori di potenza POWER XFMR 230.0Vct@0.025A  FLAT PACK PCB MOUNT" H 2350 2700 50  0001 C CNN "NOTE"
+	1    2350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2600 1950 2600
+Wire Wire Line
+	1950 2600 1950 3100
+Wire Wire Line
+	1950 3100 2050 3100
+Wire Wire Line
+	2650 2600 2850 2600
+Wire Wire Line
+	2850 2600 2850 3100
+Wire Wire Line
+	2850 3100 2650 3100
+Text GLabel 3050 2300 2    50   Input ~ 0
+HV_AC_A
+Text GLabel 3050 2800 2    50   Input ~ 0
+HV_AC_B
+Wire Wire Line
+	3050 2300 2650 2300
+Wire Wire Line
+	2650 2800 3050 2800
+$Comp
+L Utilizzati:Molex_MicroFit_2x3 J?
+U 1 1 6155E1E4
+P 5200 4150
+AR Path="/612E8A4A/6155E1E4" Ref="J?"  Part="1" 
+AR Path="/6155E1E4" Ref="J5"  Part="1" 
+F 0 "J5" H 5250 4467 50  0000 C CNN
+F 1 "Molex_MicroFit_2x3" H 5250 4648 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" H 5200 4150 50  0001 C CNN
+F 3 "~" H 5200 4150 50  0001 C CNN
+F 4 "206832-0601" H 5250 4376 50  0000 C CNN "PN"
+F 5 "M: 538-206832-0601" H 5250 4466 50  0001 C CNN "FORNITORI"
+F 6 "MOLEX, Serie Micro-Fit Plus 2x3 Verticale" H 5250 4375 50  0001 C CNN "NOTE"
+	1    5200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4050 4800 4050
+Wire Wire Line
+	4800 4050 4800 3850
+Text GLabel 4800 3850 1    50   Input ~ 0
+VCC_9V
+Text GLabel 5750 3900 1    50   Input ~ 0
+VCC_M9V
+Wire Wire Line
+	5500 4050 5750 4050
+Wire Wire Line
+	5750 4050 5750 3900
+$Comp
+L power:GND1 #PWR?
+U 1 1 6157DE6F
+P 4950 4450
+AR Path="/615349CD/6157DE6F" Ref="#PWR?"  Part="1" 
+AR Path="/6157DE6F" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 4950 4200 50  0001 C CNN
+F 1 "GND1" H 4955 4277 50  0000 C CNN
+F 2 "" H 4950 4450 50  0001 C CNN
+F 3 "" H 4950 4450 50  0001 C CNN
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 6157E938
+P 5550 4450
+AR Path="/615349CD/6157E938" Ref="#PWR?"  Part="1" 
+AR Path="/6157E938" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 5550 4200 50  0001 C CNN
+F 1 "GND1" H 5555 4277 50  0000 C CNN
+F 2 "" H 5550 4450 50  0001 C CNN
+F 3 "" H 5550 4450 50  0001 C CNN
+	1    5550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4450 4950 4250
+Wire Wire Line
+	4950 4150 5000 4150
+Wire Wire Line
+	5000 4250 4950 4250
+Connection ~ 4950 4250
+Wire Wire Line
+	4950 4250 4950 4150
+Wire Wire Line
+	5500 4250 5550 4250
+Wire Wire Line
+	5550 4250 5550 4450
+Wire Wire Line
+	5500 4150 5550 4150
+Wire Wire Line
+	5550 4150 5550 4250
+Connection ~ 5550 4250
+$EndSCHEMATC

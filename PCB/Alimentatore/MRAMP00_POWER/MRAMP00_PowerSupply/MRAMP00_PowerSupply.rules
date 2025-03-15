@@ -1,0 +1,194 @@
+
+(rules PCB MRAMP00_PowerSupply
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2503)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 4.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.3)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 300.2 (type default_EARTH))
+    (clear 300.2 (type default_FIL))
+    (clear 300.2 (type default_GND))
+    (clear 1500.2 (type default_HV))
+    (clear 300.2 (type default_LV))
+    (clear 50.0 (type smd_smd))
+    (clear 300.2 (type smd_EARTH))
+    (clear 300.2 (type smd_FIL))
+    (clear 300.2 (type smd_GND))
+    (clear 1500.2 (type smd_HV))
+    (clear 300.2 (type smd_LV))
+    (clear 300.2 (type "kicad_default"_EARTH))
+    (clear 300.2 (type "kicad_default"_FIL))
+    (clear 300.2 (type "kicad_default"_GND))
+    (clear 1500.2 (type "kicad_default"_HV))
+    (clear 300.2 (type "kicad_default"_LV))
+    (clear 300.2 (type EARTH_EARTH))
+    (clear 300.2 (type EARTH_FIL))
+    (clear 300.2 (type EARTH_GND))
+    (clear 1500.2 (type EARTH_HV))
+    (clear 300.2 (type EARTH_LV))
+    (clear 300.2 (type FIL_FIL))
+    (clear 300.2 (type FIL_GND))
+    (clear 1500.2 (type FIL_HV))
+    (clear 300.2 (type FIL_LV))
+    (clear 300.2 (type GND_GND))
+    (clear 1500.2 (type GND_HV))
+    (clear 300.2 (type GND_LV))
+    (clear 1500.2 (type HV_HV))
+    (clear 1500.2 (type HV_LV))
+    (clear 300.2 (type LV_LV))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-EARTH" "Via[0-1]_800:400_um" EARTH
+  )
+  (via 
+    "Via[0-1]_800:400_um-FIL" "Via[0-1]_800:400_um" FIL
+  )
+  (via 
+    "Via[0-1]_800:400_um-GND" "Via[0-1]_800:400_um" GND
+  )
+  (via 
+    "Via[0-1]_800:400_um-HV" "Via[0-1]_800:400_um" HV
+  )
+  (via 
+    "Via[0-1]_800:400_um-LV" "Via[0-1]_800:400_um" LV
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    EARTH "Via[0-1]_800:400_um-EARTH"
+  )
+  (via_rule
+    FIL "Via[0-1]_800:400_um-FIL"
+  )
+  (via_rule
+    GND "Via[0-1]_800:400_um-GND"
+  )
+  (via_rule
+    HV "Via[0-1]_800:400_um-HV"
+  )
+  (via_rule
+    LV "Via[0-1]_800:400_um-LV"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(R28-Pad1)" "Net-(R16-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class EARTH
+    Earth
+    (clearance_class EARTH)
+    (via_rule EARTH)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class FIL
+    FIL1B FIL1A FIL2B FIL2A FILPB FILPA FIL3B FIL3A
+    FIL4B FIL4A
+    (clearance_class FIL)
+    (via_rule FIL)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class HV
+    "/HV_POWER/AC1" "/HV_POWER/AC2" "HV_PREAMP_OUT1" "HV_PREAMP_OUT2" "HV_POWER" "HV_PREAMP_NRG" "HV_PREAMP_OUT3" "HV_PREAMP_OUT4"
+    "/HV_POWER/HV0" "/HV_POWER/HV2" "/HV_POWER/HV1" "/HV_POWER/HV4" "/HV_POWER/HV3" "/HV_POWER/HV5" "/HV_POWER/HV7" "/HV_POWER/HV6"
+    "/HV_POWER/HV8"
+    (clearance_class HV)
+    (via_rule HV)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class LV
+    "VDC_P12" "/LOW_VOLTAGE_VCC/LV3" "VDC_M12" "/LOW_VOLTAGE_VCC/LV1" "/LOW_VOLTAGE_VCC/LV0" "/LOW_VOLTAGE_VCC/LV2"
+    (clearance_class LV)
+    (via_rule LV)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

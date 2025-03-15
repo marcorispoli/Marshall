@@ -1,0 +1,21 @@
+Circuit: * C:\Users\marco\Documents\GitHub\Marshall\LTSPICE\EL84_TEST\EL84.asc
+
+.OP point found by inspection.
+
+Date: Thu Nov 18 23:52:57 2021
+Total elapsed time: 1.146 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 84566
+traniter = 84566
+tranpoints = 40071
+accept = 24077
+rejected = 15994
+matrix size = 25
+fillins = 11
+solver = Normal
+Matrix Compiler1: 1.76 KB object code size  1.0/0.3/[0.3]
+Matrix Compiler2: 1.96 KB object code size  0.3/0.4/[0.2]
+

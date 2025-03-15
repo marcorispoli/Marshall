@@ -1,0 +1,141 @@
+"Source:"	"C:\Users\marco\Documents\GitHub\Marshall\PCB\Amplificatore\Amplificatore.sch"
+"Date:"	"04/11/2021 21:57:54"
+"Tool:"	"Eeschema (5.1.10)-1"
+"Component Count:"	"107"
+"Ref"	"Value"	"PN"	"Description"	"Vendor"
+"C1"	"47nF"	"MKS0C024700B00JSSD "	"Unpolarized capacitor"	" M: 505-MKS0C0247BJSSD "
+
+"C3"	"47pF"	"FKP2O100471D00HO00 "	"Unpolarized capacitor"	" M: 505-FKP2O10471D0HO0 "
+
+"C4"	"680nF"	"B32672L4684J000 "	"Unpolarized capacitor"	" M: 871-B32672L4684J000 "
+"C10"	"680nF"	"B32672L4684J000 "	"Unpolarized capacitor"	" M: 871-B32672L4684J000 "
+
+"C5"	"22nF"	"MKP1G022203C00KSC9"	"Unpolarized capacitor"	" M: 505-MKP1G022203C00KS"
+"C11"	"22nF"	"MKP1G022203C00KSC9"	"Unpolarized capacitor"	" M: 505-MKP1G022203C00KS"
+
+"C7"	"1nF"	"B32621A4103K000"	"Unpolarized capacitor"	" M: 871-B32621A4103K"
+"C12"	"1nF"	"B32621A4103K000"	"Unpolarized capacitor"	" M: 871-B32621A4103K"
+
+"C8"	"10uF"	"TCJA106M025R0150E"	"Polarized capacitor"	"M: 581-TCJA106M025R150E "
+
+"C9"	"470pF"	"R75QD0470DQ30J"	"Unpolarized capacitor"	" M: 80-R75QD0470DQ30J" *****************************
+"C20"	"470pF"	"R75QD0470DQ30J"	"Unpolarized capacitor"	" M: 80-R75QD0470DQ30J"
+PHE450MK3470JR05
+
+"C13"	"2n2F"	"B32621A6222M289"	"Unpolarized capacitor"	" M: 871-B32621A6222M289"
+"C22"	"2n2F"	"B32621A6222M289"	"Unpolarized capacitor"	" M: 871-B32621A6222M289"
+
+"C14"	"100nF"	"R75MI310050H3J"	"Unpolarized capacitor"	" M: 80-R75MI310050H3J"
+"C15"	"100nF"	"R75MI310050H3J"	"Unpolarized capacitor"	" M: 80-R75MI310050H3J"
+"C16"	"100nF"	"R75MI310050H3J"	"Unpolarized capacitor"	" M: 80-R75MI310050H3J"
+"C21"	"100nF"	"R75MI310050H3J"	"Unpolarized capacitor"	" M: 80-R75MI310050H3J"
+"C27"	"100nF"	"R75MI310050H3J"	"Unpolarized capacitor"	" M: 80-R75MI310050H3J"
+"C28"	"100nF"	"R75MI310050H3J"	"Unpolarized capacitor"	" M: 80-R75MI310050H3J"
+"C30"	"100nF"	"R75MI310050H3J"	"Unpolarized capacitor"	" M: 80-R75MI310050H3J"
+
+"C23"	"100nF"	"C0805C104K5RAC7411"	"Unpolarized capacitor"	" M: 80-C0805C104K5RACLR"
+"C24"	"100nF"	"C0805C104K5RAC7411"	"Unpolarized capacitor"	" M: 80-C0805C104K5RACLR"
+"C29"	"100nF"	"C0805C104K5RAC7411"	"Unpolarized capacitor"	" M: 80-C0805C104K5RACLR"
+"C31"	"100nF"	"C0805C104K5RAC7411"	"Unpolarized capacitor"	" M: 80-C0805C104K5RACLR"
+
+"C17"	"4n7F"	"B32621A6472M289"	"Unpolarized capacitor"	" M: 871-B32621A6472M289"
+
+"C18"	"10nF"	"B32621A6103M289"	"Unpolarized capacitor"	" M: 871-B32621A6103M289" ****************************
+B32621A4103J000 871-B32621A4103J
+
+"C19"	"220pF"	"FKP2G002201D00JSSD"	"Unpolarized capacitor"	" M: 505-FKP2G002201D00JS" **************************
+FKP2O102201D00KSSD 505-FKP2O102201D00KS
+
+"C25"	"1uF"	"C1206C105K4PACTU"	"Unpolarized capacitor"	" M: 80-C1206C105K4PACTU"
+"C26"	"1uF"	"C1206C105K4PACTU"	"Unpolarized capacitor"	" M: 80-C1206C105K4PACTU"
+"C32"	"1uF"	"C1206C105K4PACTU"	"Unpolarized capacitor"	" M: 80-C1206C105K4PACTU"
+"C33"	"1uF"	"C1206C105K4PACTU"	"Unpolarized capacitor"	" M: 80-C1206C105K4PACTU"
+
+"D1"	"1N4007"	"1N4007-T"	"1000V 1A General Purpose Rectifier Diode, DO-41"	"M: 621-1N4007 " *************
+"D2"	"1N4007"	"1N4007-T"	"1000V 1A General Purpose Rectifier Diode, DO-41"	"M: 621-1N4007 "
+"D3"	"1N4007"	"1N4007-T"	"1000V 1A General Purpose Rectifier Diode, DO-41"	"M: 621-1N4007 "
+"D4"	"1N4007"	"1N4007-T"	"1000V 1A General Purpose Rectifier Diode, DO-41"	"M: 621-1N4007 "
+"D5"	"1N4007"	"1N4007-T"	"1000V 1A General Purpose Rectifier Diode, DO-41"	"M: 621-1N4007 "
+"D6"	"1N4007"	"1N4007-T"	"1000V 1A General Purpose Rectifier Diode, DO-41"	"M: 621-1N4007 "
+"D7"	"1N4007"	"1N4007-T"	"1000V 1A General Purpose Rectifier Diode, DO-41"	"M: 621-1N4007 "
+583-1N4007-T rectron
+
+"D8"	"1N4148WT"	"1N4148WT"	"75V 0.15A Fast switching Diode, SOD-523"	"M: 512-1N4148WT"
+"D9"	"1N4148WT"	"1N4148WT"	"75V 0.15A Fast switching Diode, SOD-523"	"M: 512-1N4148WT"
+"D10"	"1N4148WT"	"1N4148WT"	"75V 0.15A Fast switching Diode, SOD-523"	"M: 512-1N4148WT"
+
+"J1"	"POT-GAIN"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J2"	"POT-LEAD"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J3"	"SEND-RETURN"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J4"	"In"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J5"	"POT-BASS-BACK"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J6"	"POT-MID"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J7"	"POT-TREBLE"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J8"	"POT-BASS-FRONT"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J9"	"MASTER"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J14"	"POWER-STAGE"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+"J15"	"LINE-OUT"	"1-292161-3"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 571-292161-3"
+
+"J10"	"PWR_VALVE1"	"206832-0601"	"Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 538-206832-0601"
+"J11"	"LOCAL_SWITCHES"	"206832-0601"	"Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 538-206832-0601"
+"J12"	"REMOTE_SWITCHES"	"206832-0601"	"Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 538-206832-0601"
+"J13"	"LED_SWITCHES"	"206832-0601"	"Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 538-206832-0601"
+"J20"	"PWR_DC"	"206832-0601"	"Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 538-206832-0601"
+"J21"	"PWR_VALVE2"	"206832-0601"	"Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 538-206832-0601"
+
+"K1"	"G5Q-1"	"G5Q-1-DC12"	"Omron G5G relay, Miniature Single Pole, SPDT, 10A"	"M: 653-G5Q-1DC12"
+"K2"	"G5Q-1"	"G5Q-1-DC12"	"Omron G5G relay, Miniature Single Pole, SPDT, 10A"	"M: 653-G5Q-1DC12"
+"K3"	"G5Q-1"	"G5Q-1-DC12"	"Omron G5G relay, Miniature Single Pole, SPDT, 10A"	"M: 653-G5Q-1DC12"
+"K4"	"G5Q-1"	"G5Q-1-DC12"	"Omron G5G relay, Miniature Single Pole, SPDT, 10A"	"M: 653-G5Q-1DC12"
+
+"R1"	"1Meg"	""	"Resistor, small US symbol"	""
+"R2"	"68K"	""	"Resistor, small US symbol"	""
+"R3"	"2K7"	""	"Resistor, small US symbol"	""
+"R7"	"1K5"	""	"Resistor, small US symbol"	""
+"R15"	"1Meg"	""	"Resistor, small US symbol"	""
+"R16"	"1K5"	""	"Resistor, small US symbol"	""
+"R22"	"1Meg"	""	"Resistor, small US symbol"	""
+"R23"	"470R"	""	"Resistor, small US symbol"	""
+"R35"	"1Meg"	""	"Resistor, small US symbol"	""
+"R38"	"1Meg"	""	"Resistor, small US symbol"	""
+"R39"	"1Meg"	""	"Resistor, small US symbol"	""
+
+"R4"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+"R6"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+"R8"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+"R13"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+"R17"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+"R19"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+"R25"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+"R26"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+"R28"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+"R29"	"100K"	"CRCW2512100KJNEG "	"Resistor"	"M: 71-CRCW2512J-100K-E3 "
+
+"R10"	"220K"	"CRCW2512220KJNEG "	"Resistor"	"M: 71-CRCW2512J-220K-E3 "
+"R11"	"220K"	"CRCW2512220KJNEG "	"Resistor"	"M: 71-CRCW2512J-220K-E3 "
+"R24"	"220K"	"CRCW2512220KJNEG "	"Resistor"	"M: 71-CRCW2512J-220K-E3 "
+
+"R27"	"10K"	"CRCW251210KJNEG "	"Resistor"	"M: 71-CRCW2512J-220K-E3 "
+"R30"	"10K"	"CRCW251210KJNEG "	"Resistor"	"M: 71-CRCW2512J-220K-E3 "
+"R31"	"10K"	"CRCW251210KJNEG "	"Resistor"	"M: 71-CRCW2512J-220K-E3 "
+"R20"	"10K"	"CRCW251210KJNEG "	"Resistor"	"M: 71-CRCW2512J-220K-E3 "
+"R12"	"10K"	"CRCW251210KJNEG "	"Resistor"	"M: 71-CRCW2512J-220K-E3 "
+
+"R32"	"1K"	"CRCW25121K00FKEG"	"Resistor"	"M: 71-CRCW2512-1K-E3" ************************
+"R33"	"1K"	"CRCW25121K00FKEG"	"Resistor"	"M: 71-CRCW2512-1K-E3"
+"R34"	"1K"	"CRCW25121K00FKEG"	"Resistor"	"M: 71-CRCW2512-1K-E3"
+CMP2512-FX-1001ELF 652-CMP2512-FX-1001L
+
+"R36"	"10R"	"CRCW251210R0FKTG"	"Resistor"	"M: 71-CRCW2512-10"
+"R21"	"10R"	"CRCW251210R0FKTG"	"Resistor"	"M: 71-CRCW2512-10"
+
+"R9"	"47K"	"CRCW251247K0FKEG"	"Resistor"	"M: 71-CRCW251247K0FKEG" *************************
+"R14"	"47K"	"CRCW251247K0FKEG"	"Resistor"	"M: 71-CRCW251247K0FKEG"
+"R18"	"47K"	"CRCW251247K0FKEG"	"Resistor"	"M: 71-CRCW251247K0FKEG"
+CRGP2512F47K 279-CRGP2512F47K
+
+"U1"	"ECC83"	""	"double triode"	""
+"U2"	"ECC83"	""	"double triode"	""
+
+"U3"	"TL082"	"TL082IDT"	"Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"	""
+"U4"	"TL082"	"TL082IDT"	"Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"	""

@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\marco\Documents\GitHub\Marshall\PCB\Alimentatore\MRAMP00_POWER\MRAMP00_PowerSupply\MRAMP00_PowerSupply.sch</source>
+    <date>20/11/2021 21:34:31</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MRAMP00_PowerSupply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/HV_POWER/" tstamps="/618ECD6A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HV_POWER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LOW_VOLTAGE_VCC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 651-1766660</field>
+        <field name="NOTE">Phoenix Contact: Morsettiere innestabili 2 Pos 7.5mm pitch Through Hole Header</field>
+        <field name="PN">1766660</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A2F7F6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A32350</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Molex_MicroFit_2x3</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 538-206832-0601</field>
+        <field name="NOTE">MOLEX, Serie Micro-Fit Plus 2x3 Verticale</field>
+        <field name="PN">206832-0601</field>
+      </fields>
+      <libsource lib="Utilizzati" part="Molex_MicroFit_2x3" description="MOLEX, Serie Micro-Fit Plus 2x3 Verticale"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A3C8B8</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Molex_MicroFit_2x3</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 538-206832-0601</field>
+        <field name="NOTE">MOLEX, Serie Micro-Fit Plus 2x3 Verticale</field>
+        <field name="PN">206832-0601</field>
+      </fields>
+      <libsource lib="Utilizzati" part="Molex_MicroFit_2x3" description="MOLEX, Serie Micro-Fit Plus 2x3 Verticale"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A486FC</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Molex_MicroFit_2x3</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 538-206832-0601</field>
+        <field name="NOTE">MOLEX, Serie Micro-Fit Plus 2x3 Verticale</field>
+        <field name="PN">206832-0601</field>
+      </fields>
+      <libsource lib="Utilizzati" part="Molex_MicroFit_2x3" description="MOLEX, Serie Micro-Fit Plus 2x3 Verticale"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A4C4C6</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Molex_MicroFit_2x3</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 538-206832-0601</field>
+        <field name="NOTE">MOLEX, Serie Micro-Fit Plus 2x3 Verticale</field>
+        <field name="PN">206832-0601</field>
+      </fields>
+      <libsource lib="Utilizzati" part="Molex_MicroFit_2x3" description="MOLEX, Serie Micro-Fit Plus 2x3 Verticale"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A86CEB</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Molex_MicroFit_2x3</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 538-206832-0601</field>
+        <field name="NOTE">MOLEX, Serie Micro-Fit Plus 2x3 Verticale</field>
+        <field name="PN">206832-0601</field>
+      </fields>
+      <libsource lib="Utilizzati" part="Molex_MicroFit_2x3" description="MOLEX, Serie Micro-Fit Plus 2x3 Verticale"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ACE109</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Molex_MicroFit_2x3</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 538-206832-0601</field>
+        <field name="NOTE">MOLEX, Serie Micro-Fit Plus 2x3 Verticale</field>
+        <field name="PN">206832-0601</field>
+      </fields>
+      <libsource lib="Utilizzati" part="Molex_MicroFit_2x3" description="MOLEX, Serie Micro-Fit Plus 2x3 Verticale"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B4B297</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61983F66</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619887B3</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6198D0E8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61991D19</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199689F</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199B356</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199FD44</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619A4DDD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGH1206F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGH1206 1% 100R 0.5W</field>
+        <field name="PN">CRGH1206F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619A9606</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A6E3E9</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A75BA1</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A7BB4C</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A7CE28</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04</value>
+      <footprint>Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 651-1766660</field>
+        <field name="NOTE">Phoenix Contact: Morsettiere innestabili 2 Pos 7.5mm pitch Through Hole Header</field>
+        <field name="PN">1766660</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199D0D2</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04</value>
+      <footprint>Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 651-1766660</field>
+        <field name="NOTE">Phoenix Contact: Morsettiere innestabili 2 Pos 7.5mm pitch Through Hole Header</field>
+        <field name="PN">1766660</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619A2980</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 651-1766660</field>
+        <field name="NOTE">Phoenix Contact: Morsettiere innestabili 2 Pos 7.5mm pitch Through Hole Header</field>
+        <field name="PN">1766660</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619A89DC</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04</value>
+      <footprint>Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 651-1766660</field>
+        <field name="NOTE">Phoenix Contact: Morsettiere innestabili 2 Pos 7.5mm pitch Through Hole Header</field>
+        <field name="PN">1766660</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619B2A5F</tstamp>
+    </comp>
+    <comp ref="BR1">
+      <value>D2SB60A</value>
+      <footprint>TO500P370X2000X1400-4P</footprint>
+      <datasheet>http://akizukidenshi.com/download/ds/shindengen/D2SB60A.pdf</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 821-D2SB60D2G</field>
+        <field name="Height">3.7</field>
+        <field name="Manufacturer_Name">Shindengen</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
+        <field name="NOTE">Bridge Rectifiers Bridge</field>
+        <field name="PN">D2SB60A</field>
+      </fields>
+      <libsource lib="Diode_Bridge" part="D2SB60A" description="Bridge Rectifiers Bridge"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>618EE75A</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>618F0498</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x03</value>
+      <footprint>Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_3-G_1x03_P7.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 651-1766673</field>
+        <field name="NOTE">Phoenix Contact: Morsettiere innestabili 3 Pos 7.5mm pitch Through Hole Header</field>
+        <field name="PN">1766673</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>618F16C2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 80-ESH107M450AN2AA</field>
+        <field name="NOTE">KEMET Condensatori elettrolitici in alluminio - conduttori radiali 450V 100uF 105C 2k Hour Radial</field>
+        <field name="PN">ESH107M450AN2AA</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>618F6379</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 100R 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>618FD2E6</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 80-ESH107M450AN2AA</field>
+        <field name="NOTE">KEMET Condensatori elettrolitici in alluminio - conduttori radiali 450V 100uF 105C 2k Hour Radial</field>
+        <field name="PN">ESH107M450AN2AA</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61902704</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LR8K4-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LR8K4-G" description="30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>618FC91A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>680K</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F680K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 680K 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F680K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>618FEE17</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>3K3</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 71-CRCW1206-3.3K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD 1/4watt 3.3Kohms 1%</field>
+        <field name="PN">CRCW12063K30FKTA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61901D8D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 80-ESE105M450AG3AA</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 450V 1.0uF 105C 1k Hour Radial</field>
+        <field name="PN">ESE105M450AG3AA</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>619065AA</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>470K</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F470K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 470K 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F470K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>619095EC</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LR8K4-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LR8K4-G" description="30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>619100F2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 80-ESE105M450AG3AA</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 450V 1.0uF 105C 1k Hour Radial</field>
+        <field name="PN">ESE105M450AG3AA</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>619102FB</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LR8K4-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LR8K4-G" description="30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61922DF5</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 80-ESE105M450AG3AA</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 450V 1.0uF 105C 1k Hour Radial</field>
+        <field name="PN">ESE105M450AG3AA</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61923064</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LR8K4-G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LR8K4-G" description="30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>6194AE1B</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 80-ESE105M450AG3AA</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 450V 1.0uF 105C 1k Hour Radial</field>
+        <field name="PN">ESE105M450AG3AA</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>6194B0F0</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>RN218</value>
+      <footprint>Inductor_THT:Choke_Schaffner_RN218-04-12.5x18.0mm</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RN218-0.9-02-27M.pdf</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 631-RN218-0.4-02100M</field>
+        <field name="NOTE">Common Mode Chokes / Filters 0.4A 100mH 2100mOhm Vertical TH Choke</field>
+        <field name="PN">RN218-0.4-02-100M</field>
+      </fields>
+      <libsource lib="Induttanze" part="RN218-XXXX" description="Common Mode Chokes / Filters 0.9A 27mH 620mOhm Vertical TH Choke"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>619E7D46</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 871-B43821A9226M</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 400VDC 22uF 20% STD Leads</field>
+        <field name="PN">B43821A9226M</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>6190A6F9</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>RN218</value>
+      <footprint>Inductor_THT:Choke_Schaffner_RN218-04-12.5x18.0mm</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RN218-0.9-02-27M.pdf</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 631-RN218-0.4-02100M</field>
+        <field name="NOTE">Common Mode Chokes / Filters 0.4A 100mH 2100mOhm Vertical TH Choke</field>
+        <field name="PN">RN218-0.4-02-100M</field>
+      </fields>
+      <libsource lib="Induttanze" part="RN218-XXXX" description="Common Mode Chokes / Filters 0.9A 27mH 620mOhm Vertical TH Choke"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61A57D1C</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F100R</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 100R 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61A85612</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>3K3</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 71-CRCW1206-3.3K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD 1/4watt 3.3Kohms 1%</field>
+        <field name="PN">CRCW12063K30FKTA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61A9CF01</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>3K3</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 71-CRCW1206-3.3K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD 1/4watt 3.3Kohms 1%</field>
+        <field name="PN">CRCW12063K30FKTA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61AA129D</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>3K3</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 71-CRCW1206-3.3K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD 1/4watt 3.3Kohms 1%</field>
+        <field name="PN">CRCW12063K30FKTA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61AA53B1</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>680K</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F680K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 680K 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F680K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61AA785E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>680K</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F680K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 680K 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F680K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61AA85E0</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>680K</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F680K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 680K 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F680K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61AA9173</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>470K</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F470K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 470K 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F470K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61AB69D9</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>470K</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F470K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 470K 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F470K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61AB7876</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>470K</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGP2512F470K</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGP 2512 470K 1% SMD Resistor</field>
+        <field name="PN">CRGP2512F470K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/HV_POWER/" tstamps="/618ECD6A/"/>
+      <tstamp>61AB84C9</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x04</value>
+      <footprint>Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_3-G_1x03_P7.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 651-1766673</field>
+        <field name="NOTE">Phoenix Contact: Morsettiere innestabili 3 Pos 7.5mm pitch Through Hole Header</field>
+        <field name="PN">1766673</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>619708CF</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1000uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 594-MAL203836102E3</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 1000uF 25volts 20% 10x20</field>
+        <field name="PN">MAL203836102E3</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>619708F3</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 80-ESK106M025AC3AA</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 25V 10uF 85C 2k Hour Radial</field>
+        <field name="PN">ESK106M025AC3AA</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>619972E4</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1000uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 594-MAL203836102E3</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 1000uF 25volts 20% 10x20</field>
+        <field name="PN">MAL203836102E3</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>619C9EC0</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1000uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 594-MAL203836102E3</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 1000uF 25volts 20% 10x20</field>
+        <field name="PN">MAL203836102E3</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>619CF16E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1000uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 594-MAL203836102E3</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 1000uF 25volts 20% 10x20</field>
+        <field name="PN">MAL203836102E3</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>619CF391</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM317_TO-220</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317.pdf</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 926-LM317AMDT/NOPB</field>
+        <field name="NOTE">Regolatori di tensione lineari 3-TERMINAL ADJ REG</field>
+        <field name="PN">LM317TG</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM317_TO-220" description="1.5A 35V Adjustable Linear Regulator, TO-220"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>619E19DC</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>5K6</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGCQ1206F5K6</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGCQ 1206 5K6 1% SMD Resistor</field>
+        <field name="PN">CRGCQ1206F5K6</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>619E2CA1</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 652-CRM1206AFX1001EL</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD ResHighPowerA 1206 1K 1% 500mW TC100</field>
+        <field name="PN">CRM1206A-FX-1001ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>619E60B0</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LM337_TO220</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm337-n.pdf</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 863-LM337TG</field>
+        <field name="NOTE">Regolatori di tensione lineari 1.5A -1.2 to -37V ADJ Negative</field>
+        <field name="PN">LM337TG</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM337_TO220" description="Negative 1.5A 35V Adjustable Linear Regulator, TO-220"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>61A001E6</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 80-ESK106M025AC3AA</field>
+        <field name="NOTE">Condensatori elettrolitici in alluminio - conduttori radiali 25V 10uF 85C 2k Hour Radial</field>
+        <field name="PN">ESK106M025AC3AA</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>61A0D1E9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>VS-2EYH01HM3/I</value>
+      <footprint>Diode_SMD:D_SOD-128</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M:78-VS-2EYH01HM3/I</field>
+        <field name="NOTE">Raddrizzatori Freds - SlimSMAW2A,100V,Low Vf,soft,single,SMD,Tj=175C</field>
+        <field name="PN">VS-2EYH01HM3/I</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>61A255E7</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 652-CRM1206AFX1001EL</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD ResHighPowerA 1206 1K 1% 500mW TC100</field>
+        <field name="PN">CRM1206A-FX-1001ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>61AC9B14</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 652-CRM1206AFX1001EL</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD ResHighPowerA 1206 1K 1% 500mW TC100</field>
+        <field name="PN">CRM1206A-FX-1001ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>61ACC110</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 652-CRM1206AFX1001EL</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD ResHighPowerA 1206 1K 1% 500mW TC100</field>
+        <field name="PN">CRM1206A-FX-1001ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>61ACC7B4</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>5K6</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M: 279-CRGCQ1206F5K6</field>
+        <field name="NOTE">Resistori a pellicola spessa - SMD CRGCQ 1206 5K6 1% SMD Resistor</field>
+        <field name="PN">CRGCQ1206F5K6</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>61ACF4A1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>VS-2EYH01HM3/I</value>
+      <footprint>Diode_SMD:D_SOD-128</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FORNITORE">M:78-VS-2EYH01HM3/I</field>
+        <field name="NOTE">Raddrizzatori Freds - SlimSMAW2A,100V,Low Vf,soft,single,SMD,Tj=175C</field>
+        <field name="PN">VS-2EYH01HM3/I</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/LOW_VOLTAGE_VCC/" tstamps="/61968BCB/"/>
+      <tstamp>61ACF1E1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode_Bridge" part="D2SB60A">
+      <description>Bridge Rectifiers Bridge</description>
+      <docs>http://akizukidenshi.com/download/ds/shindengen/D2SB60A.pdf</docs>
+      <fields>
+        <field name="Reference">BR</field>
+        <field name="Value">D2SB60A</field>
+        <field name="Footprint">TO500P370X2000X1400-4P</field>
+        <field name="NOTE">Bridge Rectifiers Bridge</field>
+        <field name="Height">3.7</field>
+        <field name="Manufacturer_Name">Shindengen</field>
+        <field name="PN">D2SB60A</field>
+        <field name="FORNITORE">M: 821-D2SB60D2G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="~_1" type="passive"/>
+        <pin num="3" name="~_2" type="passive"/>
+        <pin num="4" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Induttanze" part="RN218-XXXX">
+      <description>Common Mode Chokes / Filters 0.9A 27mH 620mOhm Vertical TH Choke</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/RN218-0.9-02-27M.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">RN218-XXXX</field>
+        <field name="Footprint">Inductor_THT:Choke_Schaffner_RN218-04-12.5x18.0mm</field>
+        <field name="NOTE">Common Mode Chokes / Filters 0.9A 27mH 620mOhm Vertical TH Choke</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317_TO-220">
+      <aliases>
+        <alias>AZ1117T-ADJ</alias>
+      </aliases>
+      <description>1.5A 35V Adjustable Linear Regulator, TO-220</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_TO-220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM337_TO220">
+      <aliases>
+        <alias>LT1033C</alias>
+        <alias>OM1323_TO220</alias>
+      </aliases>
+      <description>Negative 1.5A 35V Adjustable Linear Regulator, TO-220</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm337-n.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM337_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LR8K4-G">
+      <description>30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf</docs>
+      <footprints>
+        <fp>TO*252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LR8K4-G</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="ADJ" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Utilizzati" part="Molex_MicroFit_2x3">
+      <description>MOLEX, Serie Micro-Fit Plus 2x3 Verticale</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Molex_MicroFit_2x3</field>
+        <field name="Footprint">Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical</field>
+        <field name="PN">206832-0601</field>
+        <field name="FORNITORI">M: 538-206832-0601</field>
+        <field name="NOTE">MOLEX, Serie Micro-Fit Plus 2x3 Verticale</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode_Bridge">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode_Bridge.lib</uri>
+    </library>
+    <library logical="Induttanze">
+      <uri>C:/Program Files/KiCad/share/kicad/library/Induttanze.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Utilizzati">
+      <uri>C:/Users/marco/Documents/GitHub/KiCad/Utilizzati.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="FIL4B">
+      <node ref="J5" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="2" name="FIL4A">
+      <node ref="J10" pin="4"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="R27" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J10" pin="6"/>
+      <node ref="J6" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J8" pin="6"/>
+      <node ref="J9" pin="6"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="J13" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="BR1" pin="4"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J11" pin="3"/>
+      <node ref="J11" pin="5"/>
+      <node ref="J11" pin="6"/>
+      <node ref="J7" pin="6"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="4" name="FIL3B">
+      <node ref="J9" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="5" name="FIL3A">
+      <node ref="J9" pin="4"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="6" name="FIL2A">
+      <node ref="J7" pin="4"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="7" name="FIL2B">
+      <node ref="R4" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="8" name="FILPA">
+      <node ref="J8" pin="4"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="9" name="Earth">
+      <node ref="H2" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="J12" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J9" pin="5"/>
+      <node ref="J10" pin="5"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="10" name="VDC_P12">
+      <node ref="R31" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="11" name="VDC_M12">
+      <node ref="R19" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="J11" pin="4"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="12" name="FILPB">
+      <node ref="R5" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="13" name="HV_PREAMP_OUT2">
+      <node ref="U2" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="14" name="HV_PREAMP_OUT1">
+      <node ref="C1" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J6" pin="3"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="15" name="HV_POWER">
+      <node ref="R15" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="16" name="FIL1B">
+      <node ref="R2" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="17" name="FIL1A">
+      <node ref="J1" pin="1"/>
+      <node ref="J6" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="18" name="HV_PREAMP_OUT3">
+      <node ref="R26" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J9" pin="3"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="19" name="HV_PREAMP_OUT4">
+      <node ref="R25" pin="1"/>
+      <node ref="R27" pin="2"/>
+      <node ref="J10" pin="3"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="20" name="/HV_POWER/HV6">
+      <node ref="R24" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="21" name="/HV_POWER/HV7">
+      <node ref="U2" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="22" name="/HV_POWER/HV2">
+      <node ref="L1" pin="1"/>
+      <node ref="L1" pin="4"/>
+    </net>
+    <net code="23" name="/HV_POWER/HV8">
+      <node ref="R23" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="24" name="/HV_POWER/HV4">
+      <node ref="L2" pin="4"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="25" name="HV_PREAMP_NRG">
+      <node ref="C8" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="26" name="/HV_POWER/HV3">
+      <node ref="R15" pin="1"/>
+      <node ref="L2" pin="3"/>
+    </net>
+    <net code="27" name="/HV_POWER/HV1">
+      <node ref="L1" pin="3"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="28" name="/HV_POWER/HV5">
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="29" name="/HV_POWER/AC1">
+      <node ref="J12" pin="1"/>
+      <node ref="BR1" pin="2"/>
+    </net>
+    <net code="30" name="/HV_POWER/AC2">
+      <node ref="J12" pin="3"/>
+      <node ref="BR1" pin="3"/>
+    </net>
+    <net code="31" name="/HV_POWER/HV0">
+      <node ref="BR1" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="33" name="/LOW_VOLTAGE_VCC/LV0">
+      <node ref="J13" pin="3"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="34" name="/LOW_VOLTAGE_VCC/LV2">
+      <node ref="J13" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="35" name="/LOW_VOLTAGE_VCC/LV3">
+      <node ref="U6" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="36" name="/LOW_VOLTAGE_VCC/LV1">
+      <node ref="D1" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="37" name="Net-(R28-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R31" pin="2"/>
+    </net>
+  </nets>
+</export>

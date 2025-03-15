@@ -1,0 +1,102 @@
+"Source:"	"C:\Users\marco\Documents\GitHub\Marshall\PCB\Alimentatore\MRAMP00_POWER\MRAMP00_PowerSupply\MRAMP00_PowerSupply.sch"
+"Date:"	"20/11/2021 21:34:31"
+"Tool:"	"Eeschema (5.1.10)-1"
+"Component Count:"	"72"
+"Ref"	"Value"	"PN"	"Description"	"Vendor"
+"BR1"	"D2SB60A"	"D2SB60A"	"Bridge Rectifiers Bridge"	"M: 821-D2SB60D2G"
+
+"C1"	"1uF"	"ESE105M450AG3AA"	"Polarized capacitor, US symbol"	"M: 80-ESE105M450AG3AA"
+"C2"	"1uF"	"ESE105M450AG3AA"	"Polarized capacitor, US symbol"	"M: 80-ESE105M450AG3AA"
+"C3"	"100uF"	"ESH107M450AN2AA"	"Polarized capacitor, US symbol"	"M: 80-ESH107M450AN2AA"
+"C7"	"100uF"	"ESH107M450AN2AA"	"Polarized capacitor, US symbol"	"M: 80-ESH107M450AN2AA"
+
+"C8"	"22uF"	"B43821A9226M"	"Polarized capacitor, US symbol"	"M: 871-B43821A9226M"
+
+"C9"	"1uF"	"ESE105M450AG3AA"	"Polarized capacitor, US symbol"	"M: 80-ESE105M450AG3AA"
+"C10"	"1uF"	"ESE105M450AG3AA"	"Polarized capacitor, US symbol"	"M: 80-ESE105M450AG3AA"
+
+"C11"	"1000uF"	"MAL203836102E3"	"Polarized capacitor, US symbol"	"M: 594-MAL203836102E3"
+"C12"	"1000uF"	"MAL203836102E3"	"Polarized capacitor, US symbol"	"M: 594-MAL203836102E3"
+"C13"	"1000uF"	"MAL203836102E3"	"Polarized capacitor, US symbol"	"M: 594-MAL203836102E3"
+"C14"	"1000uF"	"MAL203836102E3"	"Polarized capacitor, US symbol"	"M: 594-MAL203836102E3"
+
+"C15"	"10uF"	"ESK106M025AC3AA"	"Polarized capacitor, US symbol"	"M: 80-ESK106M025AC3AA"
+"C16"	"10uF"	"ESK106M025AC3AA"	"Polarized capacitor, US symbol"	"M: 80-ESK106M025AC3AA"
+
+"D1"	"VS-2EYH01HM3/I"	"VS-2EYH01HM3/I"	"Diode"	"M:78-VS-2EYH01HM3/I"
+"D2"	"VS-2EYH01HM3/I"	"VS-2EYH01HM3/I"	"Diode"	"M:78-VS-2EYH01HM3/I"
+
+"H1"	"MountingHole_Pad"	""	"Mounting Hole with connection"	""
+"H2"	"MountingHole_Pad"	""	"Mounting Hole with connection"	""
+"H3"	"MountingHole_Pad"	""	"Mounting Hole with connection"	""
+"H4"	"MountingHole_Pad"	""	"Mounting Hole with connection"	""
+
+"J1"	"Conn_01x04"	"1766660"	"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 651-1766660"
+"J2"	"Conn_01x04"	"1766660"	"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 651-1766660"
+"J3"	"Conn_01x04"	"1766660"	"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 651-1766660"
+"J4"	"Conn_01x04"	"1766660"	"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 651-1766660"
+"J5"	"Conn_01x04"	"1766660"	"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 651-1766660"
+
+"J6"	"Molex_MicroFit_2x3"	"206832-0601"	"MOLEX, Serie Micro-Fit Plus 2x3 Verticale"	"M: 538-206832-0601"
+"J7"	"Molex_MicroFit_2x3"	"206832-0601"	"MOLEX, Serie Micro-Fit Plus 2x3 Verticale"	"M: 538-206832-0601"
+"J8"	"Molex_MicroFit_2x3"	"206832-0601"	"MOLEX, Serie Micro-Fit Plus 2x3 Verticale"	"M: 538-206832-0601"
+"J9"	"Molex_MicroFit_2x3"	"206832-0601"	"MOLEX, Serie Micro-Fit Plus 2x3 Verticale"	"M: 538-206832-0601"
+"J10"	"Molex_MicroFit_2x3"	"206832-0601"	"MOLEX, Serie Micro-Fit Plus 2x3 Verticale"	"M: 538-206832-0601"
+"J11"	"Molex_MicroFit_2x3"	"206832-0601"	"MOLEX, Serie Micro-Fit Plus 2x3 Verticale"	"M: 538-206832-0601"
+
+"J12"	"Conn_01x03"	"1766673"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 651-1766673"
+"J13"	"Conn_01x04"	"1766673"	"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"	"M: 651-1766673"
+"JP1"	"SolderJumper_2_Bridged"	""	"Solder Jumper, 2-pole, closed/bridged"	""
+
+"L1"	"RN218"	"RN218-0.4-02-100M"	"Common Mode Chokes / Filters 0.9A 27mH 620mOhm Vertical TH Choke"	"M: 631-RN218-0.4-02100M"
+"L2"	"RN218"	"RN218-0.4-02-100M"	"Common Mode Chokes / Filters 0.9A 27mH 620mOhm Vertical TH Choke"	"M: 631-RN218-0.4-02100M"
+
+"R1"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+"R2"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+"R3"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+"R4"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+"R5"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+"R6"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+"R7"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+"R8"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+"R9"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+"R10"	"100R"	"CRGH1206F100R"	"Resistor"	"M: 279-CRGH1206F100R"
+
+"R11"	"680K"	"CRGP2512F680K"	"Resistor"	"M: 279-CRGP2512F680K"
+"R12"	"680K"	"CRGP2512F680K"	"Resistor"	"M: 279-CRGP2512F680K"
+
+"R13"	"3K3"	"CRCW12063K30FKTA"	"Resistor"	"M: 71-CRCW1206-3.3K"
+"R14"	"3K3"	"CRCW12063K30FKTA"	"Resistor"	"M: 71-CRCW1206-3.3K"
+
+"R15"	"100R"	"CRGP2512F100R"	"Resistor"	"M: 279-CRGP2512F100R"
+
+"R16"	"5K6"	"CRGCQ1206F5K6"	"Resistor"	"M: 279-CRGCQ1206F5K6"
+
+"R17"	"470K"	"CRGP2512F470K"	"Resistor"	"M: 279-CRGP2512F470K"
+"R18"	"470K"	"CRGP2512F470K"	"Resistor"	"M: 279-CRGP2512F470K"
+
+"R19"	"1K"	"CRM1206A-FX-1001ELF"	"Resistor"	"M: 652-CRM1206AFX1001EL"
+"R20"	"100R"	"CRGP2512F100R"	"Resistor"	"M: 279-CRGP2512F100R"
+"R21"	"1K"	"CRM1206A-FX-1001ELF"	"Resistor"	"M: 652-CRM1206AFX1001EL"
+
+"R22"	"680K"	"CRGP2512F680K"	"Resistor"	"M: 279-CRGP2512F680K"
+"R23"	"680K"	"CRGP2512F680K"	"Resistor"	"M: 279-CRGP2512F680K"
+
+"R24"	"3K3"	"CRCW12063K30FKTA"	"Resistor"	"M: 71-CRCW1206-3.3K"
+"R25"	"3K3"	"CRCW12063K30FKTA"	"Resistor"	"M: 71-CRCW1206-3.3K"
+
+"R26"	"470K"	"CRGP2512F470K"	"Resistor"	"M: 279-CRGP2512F470K"
+"R27"	"470K"	"CRGP2512F470K"	"Resistor"	"M: 279-CRGP2512F470K"
+
+"R28"	"5K6"	"CRGCQ1206F5K6"	"Resistor"	"M: 279-CRGCQ1206F5K6"
+
+"R29"	"1K"	"CRM1206A-FX-1001ELF"	"Resistor"	"M: 652-CRM1206AFX1001EL"
+"R31"	"1K"	"CRM1206A-FX-1001ELF"	"Resistor"	"M: 652-CRM1206AFX1001EL"
+
+"U1"	"LR8K4-G"	""	"30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"	""
+"U2"	"LR8K4-G"	""	"30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"	""
+"U3"	"LR8K4-G"	""	"30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"	""
+"U4"	"LR8K4-G"	""	"30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"	""
+
+"U5"	"LM317_TO-220"	"LM317TG"	"1.5A 35V Adjustable Linear Regulator, TO-220"	"M: 926-LM317AMDT/NOPB"
+"U6"	"LM337_TO220"	"LM337TG"	"Negative 1.5A 35V Adjustable Linear Regulator, TO-220"	"M: 863-LM337TG"

@@ -1,0 +1,776 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode_Bridge:D2SB60A BR1
+U 1 1 618EE75A
+P 1650 1700
+F 0 "BR1" H 2378 1596 50  0000 L CNN
+F 1 "D2SB60A" H 2378 1505 50  0000 L CNN
+F 2 "TO500P370X2000X1400-4P" H 2400 1800 50  0001 L CNN
+F 3 "http://akizukidenshi.com/download/ds/shindengen/D2SB60A.pdf" H 2400 1700 50  0001 L CNN
+F 4 "Bridge Rectifiers Bridge" H 2400 1600 50  0001 L CNN "NOTE"
+F 5 "3.7" H 2400 1500 50  0001 L CNN "Height"
+F 6 "Shindengen" H 2400 1400 50  0001 L CNN "Manufacturer_Name"
+F 7 "D2SB60A" H 2400 1300 50  0001 L CNN "PN"
+F 8 "M: 821-D2SB60D2G" H 2400 1200 50  0001 L CNN "FORNITORE"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 2400 1100 50  0001 L CNN "Mouser Price/Stock"
+	1    1650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2000 1650 2300
+$Comp
+L power:GND #PWR020
+U 1 1 618EF25E
+P 1650 2350
+F 0 "#PWR020" H 1650 2100 50  0001 C CNN
+F 1 "GND" H 1655 2177 50  0000 C CNN
+F 2 "" H 1650 2350 50  0001 C CNN
+F 3 "" H 1650 2350 50  0001 C CNN
+	1    1650 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1700 1650 1300
+$Comp
+L power:Earth #PWR019
+U 1 1 618EFC61
+P 1300 2400
+F 0 "#PWR019" H 1300 2150 50  0001 C CNN
+F 1 "Earth" H 1300 2250 50  0001 C CNN
+F 2 "" H 1300 2400 50  0001 C CNN
+F 3 "~" H 1300 2400 50  0001 C CNN
+	1    1300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 618F0498
+P 1450 2300
+F 0 "JP1" H 1450 2413 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 1450 2414 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 1450 2300 50  0001 C CNN
+F 3 "~" H 1450 2300 50  0001 C CNN
+	1    1450 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2400 1300 2300
+Wire Wire Line
+	1600 2300 1650 2300
+Connection ~ 1650 2300
+Wire Wire Line
+	1650 2300 1650 2350
+$Comp
+L Connector_Generic:Conn_01x03 J12
+U 1 1 618F16C2
+P 700 1900
+F 0 "J12" H 700 2250 50  0000 C CNN
+F 1 "Conn_01x03" H 650 2150 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_3-G_1x03_P7.50mm_Vertical" H 700 1900 50  0001 C CNN
+F 3 "~" H 700 1900 50  0001 C CNN
+F 4 "1766673" H 700 1900 50  0001 C CNN "PN"
+F 5 "M: 651-1766673" H 700 1900 50  0001 C CNN "FORNITORE"
+F 6 "Phoenix Contact: Morsettiere innestabili 3 Pos 7.5mm pitch Through Hole Header" H 700 1900 50  0001 C CNN "NOTE"
+	1    700  1900
+	-1   0    0    -1  
+$EndComp
+Text Label 1500 1800 0    50   ~ 0
+AC1
+Text Label 1500 1900 0    50   ~ 0
+AC2
+Connection ~ 1300 2300
+$Comp
+L Device:CP1 C3
+U 1 1 618F6379
+P 3100 1800
+F 0 "C3" H 3215 1846 50  0000 L CNN
+F 1 "100uF" H 3215 1755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 3100 1800 50  0001 C CNN
+F 3 "~" H 3100 1800 50  0001 C CNN
+F 4 "ESH107M450AN2AA" H 3100 1800 50  0001 C CNN "PN"
+F 5 "M: 80-ESH107M450AN2AA" H 3100 1800 50  0001 C CNN "FORNITORE"
+F 6 "KEMET Condensatori elettrolitici in alluminio - conduttori radiali 450V 100uF 105C 2k Hour Radial" H 3100 1800 50  0001 C CNN "NOTE"
+	1    3100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1650 3100 1300
+Connection ~ 3100 1300
+Wire Wire Line
+	3100 1950 3100 2300
+Wire Wire Line
+	1650 2300 3100 2300
+Connection ~ 3100 2300
+$Comp
+L Device:R R20
+U 1 1 618FD2E6
+P 3850 1300
+F 0 "R20" V 3643 1300 50  0000 C CNN
+F 1 "100R" V 3734 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 3780 1300 50  0001 C CNN
+F 3 "~" H 3850 1300 50  0001 C CNN
+F 4 "CRGP2512F100R" V 3850 1300 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F100R" V 3850 1300 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 100R 1% SMD Resistor" V 3850 1300 50  0001 C CNN "NOTE"
+	1    3850 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C7
+U 1 1 61902704
+P 6000 1900
+F 0 "C7" H 6115 1946 50  0000 L CNN
+F 1 "100uF" H 6115 1855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 6000 1900 50  0001 C CNN
+F 3 "~" H 6000 1900 50  0001 C CNN
+F 4 "ESH107M450AN2AA" H 6000 1900 50  0001 C CNN "PN"
+F 5 "M: 80-ESH107M450AN2AA" H 6000 1900 50  0001 C CNN "FORNITORE"
+F 6 "KEMET Condensatori elettrolitici in alluminio - conduttori radiali 450V 100uF 105C 2k Hour Radial" H 6000 1900 50  0001 C CNN "NOTE"
+	1    6000 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 1050 1    50   Input ~ 0
+HV_POWER
+Text Label 4050 1300 0    50   ~ 0
+HV1
+$Comp
+L Regulator_Linear:LR8K4-G U1
+U 1 1 618FC91A
+P 2450 3250
+F 0 "U1" H 2450 3517 50  0000 C CNN
+F 1 "LR8K4-G" H 2450 3426 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 2450 2800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" H 2450 3250 50  0001 C CNN
+	1    2450 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 3250 0    50   Input ~ 0
+HV_PREAMP_NRG
+$Comp
+L Device:R R11
+U 1 1 618FEE17
+P 2450 3850
+F 0 "R11" V 2243 3850 50  0000 C CNN
+F 1 "680K" V 2334 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 2380 3850 50  0001 C CNN
+F 3 "~" H 2450 3850 50  0001 C CNN
+F 4 "CRGP2512F680K" V 2450 3850 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F680K" V 2450 3850 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 680K 1% SMD Resistor" V 2450 3850 50  0001 C CNN "NOTE"
+	1    2450 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 3700 2450 3650
+$Comp
+L Device:R R13
+U 1 1 61901D8D
+P 3050 3650
+F 0 "R13" V 2843 3650 50  0000 C CNN
+F 1 "3K3" V 2934 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2980 3650 50  0001 C CNN
+F 3 "~" H 3050 3650 50  0001 C CNN
+F 4 "CRCW12063K30FKTA" V 3050 3650 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW1206-3.3K" V 3050 3650 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD 1/4watt 3.3Kohms 1%" V 3050 3650 50  0001 C CNN "NOTE"
+	1    3050 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 3650 2450 3650
+Connection ~ 2450 3650
+Wire Wire Line
+	2450 3650 2450 3550
+Wire Wire Line
+	3200 3650 3350 3650
+Wire Wire Line
+	3350 3650 3350 3250
+Wire Wire Line
+	3350 3250 2850 3250
+Wire Wire Line
+	2050 3250 1550 3250
+$Comp
+L power:GND #PWR017
+U 1 1 61904D66
+P 2450 4250
+F 0 "#PWR017" H 2450 4000 50  0001 C CNN
+F 1 "GND" H 2455 4077 50  0000 C CNN
+F 2 "" H 2450 4250 50  0001 C CNN
+F 3 "" H 2450 4250 50  0001 C CNN
+	1    2450 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4000 2450 4200
+$Comp
+L Device:CP1 C1
+U 1 1 619065AA
+P 3350 3950
+F 0 "C1" H 3465 3996 50  0000 L CNN
+F 1 "1uF" H 3465 3905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3350 3950 50  0001 C CNN
+F 3 "~" H 3350 3950 50  0001 C CNN
+F 4 "ESE105M450AG3AA" H 3350 3950 50  0001 C CNN "PN"
+F 5 "M: 80-ESE105M450AG3AA" H 3350 3950 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori elettrolitici in alluminio - conduttori radiali 450V 1.0uF 105C 1k Hour Radial" H 3350 3950 50  0001 C CNN "NOTE"
+	1    3350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3800 3350 3650
+Connection ~ 3350 3650
+Wire Wire Line
+	2450 4200 3350 4200
+Wire Wire Line
+	3350 4200 3350 4100
+Connection ~ 2450 4200
+Wire Wire Line
+	2450 4200 2450 4250
+$Comp
+L Device:R R17
+U 1 1 619095EC
+P 3850 3900
+F 0 "R17" V 3643 3900 50  0000 C CNN
+F 1 "470K" V 3734 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 3780 3900 50  0001 C CNN
+F 3 "~" H 3850 3900 50  0001 C CNN
+F 4 "CRGP2512F470K" V 3850 3900 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F470K" V 3850 3900 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 470K 1% SMD Resistor" V 3850 3900 50  0001 C CNN "NOTE"
+	1    3850 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 3250 3850 3250
+Wire Wire Line
+	3850 3250 3850 3750
+Connection ~ 3350 3250
+Wire Wire Line
+	3350 4200 3850 4200
+Wire Wire Line
+	3850 4200 3850 4050
+Connection ~ 3350 4200
+Wire Wire Line
+	3850 3250 4400 3250
+Connection ~ 3850 3250
+Text GLabel 4400 3250 2    50   Input ~ 0
+HV_PREAMP_OUT1
+$Comp
+L Regulator_Linear:LR8K4-G U2
+U 1 1 619100F2
+P 2450 5050
+F 0 "U2" H 2450 5317 50  0000 C CNN
+F 1 "LR8K4-G" H 2450 5226 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 2450 4600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" H 2450 5050 50  0001 C CNN
+	1    2450 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 5050 0    50   Input ~ 0
+HV_PREAMP_NRG
+Wire Wire Line
+	2450 5500 2450 5450
+Wire Wire Line
+	2900 5450 2450 5450
+Connection ~ 2450 5450
+Wire Wire Line
+	2450 5450 2450 5350
+Wire Wire Line
+	3200 5450 3350 5450
+Wire Wire Line
+	3350 5450 3350 5050
+Wire Wire Line
+	3350 5050 2850 5050
+Wire Wire Line
+	2050 5050 1550 5050
+$Comp
+L power:GND #PWR018
+U 1 1 619102ED
+P 2450 6050
+F 0 "#PWR018" H 2450 5800 50  0001 C CNN
+F 1 "GND" H 2455 5877 50  0000 C CNN
+F 2 "" H 2450 6050 50  0001 C CNN
+F 3 "" H 2450 6050 50  0001 C CNN
+	1    2450 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5800 2450 6000
+$Comp
+L Device:CP1 C2
+U 1 1 619102FB
+P 3350 5750
+F 0 "C2" H 3465 5796 50  0000 L CNN
+F 1 "1uF" H 3465 5705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3350 5750 50  0001 C CNN
+F 3 "~" H 3350 5750 50  0001 C CNN
+F 4 "ESE105M450AG3AA" H 3350 5750 50  0001 C CNN "PN"
+F 5 "M: 80-ESE105M450AG3AA" H 3350 5750 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori elettrolitici in alluminio - conduttori radiali 450V 1.0uF 105C 1k Hour Radial" H 3350 5750 50  0001 C CNN "NOTE"
+	1    3350 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5600 3350 5450
+Connection ~ 3350 5450
+Wire Wire Line
+	2450 6000 3350 6000
+Wire Wire Line
+	3350 6000 3350 5900
+Connection ~ 2450 6000
+Wire Wire Line
+	2450 6000 2450 6050
+Wire Wire Line
+	3350 5050 3850 5050
+Wire Wire Line
+	3850 5050 3850 5550
+Connection ~ 3350 5050
+Wire Wire Line
+	3350 6000 3850 6000
+Wire Wire Line
+	3850 6000 3850 5850
+Connection ~ 3350 6000
+Wire Wire Line
+	3850 5050 4400 5050
+Connection ~ 3850 5050
+Text GLabel 4400 5050 2    50   Input ~ 0
+HV_PREAMP_OUT2
+$Comp
+L Regulator_Linear:LR8K4-G U3
+U 1 1 61922DF5
+P 7900 3250
+F 0 "U3" H 7900 3517 50  0000 C CNN
+F 1 "LR8K4-G" H 7900 3426 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 7900 2800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" H 7900 3250 50  0001 C CNN
+	1    7900 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 3250 0    50   Input ~ 0
+HV_PREAMP_NRG
+Wire Wire Line
+	7900 3700 7900 3650
+Wire Wire Line
+	8350 3650 7900 3650
+Connection ~ 7900 3650
+Wire Wire Line
+	7900 3650 7900 3550
+Wire Wire Line
+	8650 3650 8800 3650
+Wire Wire Line
+	8800 3650 8800 3250
+Wire Wire Line
+	8800 3250 8300 3250
+Wire Wire Line
+	7500 3250 7000 3250
+$Comp
+L power:GND #PWR021
+U 1 1 61923056
+P 7900 4250
+F 0 "#PWR021" H 7900 4000 50  0001 C CNN
+F 1 "GND" H 7905 4077 50  0000 C CNN
+F 2 "" H 7900 4250 50  0001 C CNN
+F 3 "" H 7900 4250 50  0001 C CNN
+	1    7900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4000 7900 4200
+$Comp
+L Device:CP1 C9
+U 1 1 61923064
+P 8800 3950
+F 0 "C9" H 8915 3996 50  0000 L CNN
+F 1 "1uF" H 8915 3905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 8800 3950 50  0001 C CNN
+F 3 "~" H 8800 3950 50  0001 C CNN
+F 4 "ESE105M450AG3AA" H 8800 3950 50  0001 C CNN "PN"
+F 5 "M: 80-ESE105M450AG3AA" H 8800 3950 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori elettrolitici in alluminio - conduttori radiali 450V 1.0uF 105C 1k Hour Radial" H 8800 3950 50  0001 C CNN "NOTE"
+	1    8800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3800 8800 3650
+Connection ~ 8800 3650
+Wire Wire Line
+	7900 4200 8800 4200
+Wire Wire Line
+	8800 4200 8800 4100
+Connection ~ 7900 4200
+Wire Wire Line
+	7900 4200 7900 4250
+Wire Wire Line
+	8800 3250 9300 3250
+Wire Wire Line
+	9300 3250 9300 3750
+Connection ~ 8800 3250
+Wire Wire Line
+	8800 4200 9300 4200
+Wire Wire Line
+	9300 4200 9300 4050
+Connection ~ 8800 4200
+Wire Wire Line
+	9300 3250 9850 3250
+Connection ~ 9300 3250
+Text GLabel 9850 3250 2    50   Input ~ 0
+HV_PREAMP_OUT3
+$Comp
+L Regulator_Linear:LR8K4-G U4
+U 1 1 6194AE1B
+P 7950 5050
+F 0 "U4" H 7950 5317 50  0000 C CNN
+F 1 "LR8K4-G" H 7950 5226 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 7950 4600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" H 7950 5050 50  0001 C CNN
+	1    7950 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 5050 0    50   Input ~ 0
+HV_PREAMP_NRG
+Wire Wire Line
+	7950 5500 7950 5450
+Wire Wire Line
+	8400 5450 7950 5450
+Connection ~ 7950 5450
+Wire Wire Line
+	7950 5450 7950 5350
+Wire Wire Line
+	8700 5450 8850 5450
+Wire Wire Line
+	8850 5450 8850 5050
+Wire Wire Line
+	8850 5050 8350 5050
+Wire Wire Line
+	7550 5050 7050 5050
+$Comp
+L power:GND #PWR022
+U 1 1 6194B0E2
+P 7950 6050
+F 0 "#PWR022" H 7950 5800 50  0001 C CNN
+F 1 "GND" H 7955 5877 50  0000 C CNN
+F 2 "" H 7950 6050 50  0001 C CNN
+F 3 "" H 7950 6050 50  0001 C CNN
+	1    7950 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 5800 7950 6000
+$Comp
+L Device:CP1 C10
+U 1 1 6194B0F0
+P 8850 5750
+F 0 "C10" H 8965 5796 50  0000 L CNN
+F 1 "1uF" H 8965 5705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 8850 5750 50  0001 C CNN
+F 3 "~" H 8850 5750 50  0001 C CNN
+F 4 "ESE105M450AG3AA" H 8850 5750 50  0001 C CNN "PN"
+F 5 "M: 80-ESE105M450AG3AA" H 8850 5750 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori elettrolitici in alluminio - conduttori radiali 450V 1.0uF 105C 1k Hour Radial" H 8850 5750 50  0001 C CNN "NOTE"
+	1    8850 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5600 8850 5450
+Connection ~ 8850 5450
+Wire Wire Line
+	7950 6000 8850 6000
+Wire Wire Line
+	8850 6000 8850 5900
+Connection ~ 7950 6000
+Wire Wire Line
+	7950 6000 7950 6050
+Wire Wire Line
+	8850 5050 9350 5050
+Wire Wire Line
+	9350 5050 9350 5550
+Connection ~ 8850 5050
+Wire Wire Line
+	8850 6000 9350 6000
+Wire Wire Line
+	9350 6000 9350 5850
+Connection ~ 8850 6000
+Wire Wire Line
+	9350 5050 9900 5050
+Connection ~ 9350 5050
+Text GLabel 9900 5050 2    50   Input ~ 0
+HV_PREAMP_OUT4
+Text Label 1650 1300 0    50   ~ 0
+HV0
+$Comp
+L Induttanze:RN218-XXXX L1
+U 1 1 619E7D46
+P 4700 1300
+F 0 "L1" H 5075 1615 50  0000 C CNN
+F 1 "RN218" H 5075 1524 50  0000 C CNN
+F 2 "Inductor_THT:Choke_Schaffner_RN218-04-12.5x18.0mm" H 5350 1400 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RN218-0.9-02-27M.pdf" H 5500 1300 50  0001 L CNN
+F 4 "Common Mode Chokes / Filters 0.4A 100mH 2100mOhm Vertical TH Choke" H 5500 1200 50  0001 L CNN "NOTE"
+F 5 "RN218-0.4-02-100M" H 4700 1300 50  0001 C CNN "PN"
+F 6 "M: 631-RN218-0.4-02100M" H 4700 1300 50  0001 C CNN "FORNITORE"
+	1    4700 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 1300 1    50   Input ~ 0
+HV_PREAMP_NRG
+$Comp
+L Device:CP1 C8
+U 1 1 6190A6F9
+P 8450 1900
+F 0 "C8" H 8565 1946 50  0000 L CNN
+F 1 "22uF" H 8565 1855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 8450 1900 50  0001 C CNN
+F 3 "~" H 8450 1900 50  0001 C CNN
+F 4 "B43821A9226M" H 8450 1900 50  0001 C CNN "PN"
+F 5 "M: 871-B43821A9226M" H 8450 1900 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori elettrolitici in alluminio - conduttori radiali 400VDC 22uF 20% STD Leads" H 8450 1900 50  0001 C CNN "NOTE"
+	1    8450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2300 6000 2300
+Wire Wire Line
+	4650 1500 4650 1700
+Wire Wire Line
+	4650 1700 5700 1700
+Wire Wire Line
+	5700 1300 5700 1700
+Wire Wire Line
+	5700 1300 5500 1300
+Wire Wire Line
+	5500 1500 6000 1500
+Wire Wire Line
+	6000 2050 6000 2300
+Connection ~ 6000 2300
+Wire Wire Line
+	6000 1750 6000 1500
+Wire Wire Line
+	6000 1500 6000 1350
+Connection ~ 6000 1500
+Wire Wire Line
+	6250 1350 6000 1350
+Connection ~ 6000 1350
+Wire Wire Line
+	6000 1350 6000 1050
+$Comp
+L Induttanze:RN218-XXXX L2
+U 1 1 61A57D1C
+P 7150 1350
+F 0 "L2" H 7525 1665 50  0000 C CNN
+F 1 "RN218" H 7525 1574 50  0000 C CNN
+F 2 "Inductor_THT:Choke_Schaffner_RN218-04-12.5x18.0mm" H 7800 1450 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RN218-0.9-02-27M.pdf" H 7950 1350 50  0001 L CNN
+F 4 "Common Mode Chokes / Filters 0.4A 100mH 2100mOhm Vertical TH Choke" H 7950 1250 50  0001 L CNN "NOTE"
+F 5 "RN218-0.4-02-100M" H 7150 1350 50  0001 C CNN "PN"
+F 6 "M: 631-RN218-0.4-02100M" H 7150 1350 50  0001 C CNN "FORNITORE"
+	1    7150 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1350 6550 1350
+Wire Wire Line
+	7100 1550 7100 1750
+Wire Wire Line
+	7100 1750 8150 1750
+Wire Wire Line
+	8150 1350 8150 1750
+Wire Wire Line
+	8150 1350 7950 1350
+Wire Wire Line
+	7950 1550 8450 1550
+Wire Wire Line
+	8450 1750 8450 1550
+Wire Wire Line
+	8450 2050 8450 2300
+Wire Wire Line
+	6000 2300 8450 2300
+Wire Wire Line
+	8450 1550 8450 1300
+Connection ~ 8450 1550
+Wire Wire Line
+	3100 1300 3700 1300
+Wire Wire Line
+	4000 1300 4650 1300
+$Comp
+L Device:R R15
+U 1 1 61A85612
+P 6400 1350
+F 0 "R15" V 6193 1350 50  0000 C CNN
+F 1 "100R" V 6284 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 6330 1350 50  0001 C CNN
+F 3 "~" H 6400 1350 50  0001 C CNN
+F 4 "CRGP2512F100R" V 6400 1350 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F100R" V 6400 1350 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 100R 1% SMD Resistor" V 6400 1350 50  0001 C CNN "NOTE"
+	1    6400 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 1300 3100 1300
+$Comp
+L Device:R R14
+U 1 1 61A9CF01
+P 3050 5450
+F 0 "R14" V 2843 5450 50  0000 C CNN
+F 1 "3K3" V 2934 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2980 5450 50  0001 C CNN
+F 3 "~" H 3050 5450 50  0001 C CNN
+F 4 "CRCW12063K30FKTA" V 3050 5450 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW1206-3.3K" V 3050 5450 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD 1/4watt 3.3Kohms 1%" V 3050 5450 50  0001 C CNN "NOTE"
+	1    3050 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 61AA129D
+P 8500 3650
+F 0 "R24" V 8293 3650 50  0000 C CNN
+F 1 "3K3" V 8384 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 8430 3650 50  0001 C CNN
+F 3 "~" H 8500 3650 50  0001 C CNN
+F 4 "CRCW12063K30FKTA" V 8500 3650 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW1206-3.3K" V 8500 3650 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD 1/4watt 3.3Kohms 1%" V 8500 3650 50  0001 C CNN "NOTE"
+	1    8500 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 61AA53B1
+P 8550 5450
+F 0 "R25" V 8343 5450 50  0000 C CNN
+F 1 "3K3" V 8434 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 8480 5450 50  0001 C CNN
+F 3 "~" H 8550 5450 50  0001 C CNN
+F 4 "CRCW12063K30FKTA" V 8550 5450 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW1206-3.3K" V 8550 5450 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD 1/4watt 3.3Kohms 1%" V 8550 5450 50  0001 C CNN "NOTE"
+	1    8550 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 61AA785E
+P 7900 3850
+F 0 "R22" V 7693 3850 50  0000 C CNN
+F 1 "680K" V 7784 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 7830 3850 50  0001 C CNN
+F 3 "~" H 7900 3850 50  0001 C CNN
+F 4 "CRGP2512F680K" V 7900 3850 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F680K" V 7900 3850 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 680K 1% SMD Resistor" V 7900 3850 50  0001 C CNN "NOTE"
+	1    7900 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 61AA85E0
+P 2450 5650
+F 0 "R12" V 2243 5650 50  0000 C CNN
+F 1 "680K" V 2334 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 2380 5650 50  0001 C CNN
+F 3 "~" H 2450 5650 50  0001 C CNN
+F 4 "CRGP2512F680K" V 2450 5650 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F680K" V 2450 5650 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 680K 1% SMD Resistor" V 2450 5650 50  0001 C CNN "NOTE"
+	1    2450 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 61AA9173
+P 7950 5650
+F 0 "R23" V 7743 5650 50  0000 C CNN
+F 1 "680K" V 7834 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 7880 5650 50  0001 C CNN
+F 3 "~" H 7950 5650 50  0001 C CNN
+F 4 "CRGP2512F680K" V 7950 5650 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F680K" V 7950 5650 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 680K 1% SMD Resistor" V 7950 5650 50  0001 C CNN "NOTE"
+	1    7950 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 61AB69D9
+P 3850 5700
+F 0 "R18" V 3643 5700 50  0000 C CNN
+F 1 "470K" V 3734 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 3780 5700 50  0001 C CNN
+F 3 "~" H 3850 5700 50  0001 C CNN
+F 4 "CRGP2512F470K" V 3850 5700 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F470K" V 3850 5700 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 470K 1% SMD Resistor" V 3850 5700 50  0001 C CNN "NOTE"
+	1    3850 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 61AB7876
+P 9300 3900
+F 0 "R26" V 9093 3900 50  0000 C CNN
+F 1 "470K" V 9184 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 9230 3900 50  0001 C CNN
+F 3 "~" H 9300 3900 50  0001 C CNN
+F 4 "CRGP2512F470K" V 9300 3900 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F470K" V 9300 3900 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 470K 1% SMD Resistor" V 9300 3900 50  0001 C CNN "NOTE"
+	1    9300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 61AB84C9
+P 9350 5700
+F 0 "R27" V 9143 5700 50  0000 C CNN
+F 1 "470K" V 9234 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 9280 5700 50  0001 C CNN
+F 3 "~" H 9350 5700 50  0001 C CNN
+F 4 "CRGP2512F470K" V 9350 5700 50  0001 C CNN "PN"
+F 5 "M: 279-CRGP2512F470K" V 9350 5700 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD CRGP 2512 470K 1% SMD Resistor" V 9350 5700 50  0001 C CNN "NOTE"
+	1    9350 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  2000 1450 2000
+Wire Wire Line
+	1450 2000 1450 1900
+Wire Wire Line
+	1450 1900 1650 1900
+Wire Wire Line
+	900  1800 1650 1800
+Wire Wire Line
+	900  1900 1300 1900
+Wire Wire Line
+	1300 1900 1300 2300
+Text Label 5600 1300 0    50   ~ 0
+HV2
+Text Label 6700 1350 0    50   ~ 0
+HV3
+Text Label 7550 1750 0    50   ~ 0
+HV4
+Text Label 2550 3650 0    50   ~ 0
+HV5
+Text Label 8100 3650 0    50   ~ 0
+HV6
+Text Label 2650 5450 0    50   ~ 0
+HV7
+Text Label 8100 5450 0    50   ~ 0
+HV8
+$EndSCHEMATC

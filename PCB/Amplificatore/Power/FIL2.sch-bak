@@ -1,0 +1,943 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1950 2100 1950 2400
+Wire Wire Line
+	1400 2400 1950 2400
+$Comp
+L Diode:1N4001 D?
+U 1 1 6151C891
+P 6900 1050
+AR Path="/615349CD/6151C891" Ref="D?"  Part="1" 
+AR Path="/613F1FA9/6151C891" Ref="D6"  Part="1" 
+F 0 "D6" H 6900 1267 50  0000 C CNN
+F 1 "1N4001" H 6900 1176 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 6900 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6900 1050 50  0001 C CNN
+F 4 "1N4001-E3/54" H 6900 1050 50  0001 C CNN "PN"
+F 5 "M: 625-1N4001-E3/54" H 6900 1050 50  0001 C CNN "FORNITORI"
+F 6 "Raddrizzatori Vr/50V Io/1A" H 6900 1050 50  0001 C CNN "NOTE"
+	1    6900 1050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1050 6750 1050
+Wire Wire Line
+	7200 1550 7450 1550
+Wire Wire Line
+	7450 1550 7450 1050
+Wire Wire Line
+	7450 1050 7050 1050
+$Comp
+L Device:CP C?
+U 1 1 6151C89F
+P 6900 2350
+AR Path="/6151C89F" Ref="C?"  Part="1" 
+AR Path="/612E8A4A/6151C89F" Ref="C?"  Part="1" 
+AR Path="/615349CD/6151C89F" Ref="C?"  Part="1" 
+AR Path="/613F1FA9/6151C89F" Ref="C19"  Part="1" 
+F 0 "C19" H 7018 2396 50  0000 L CNN
+F 1 "10uF" H 7018 2305 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6938 2200 50  0001 C CNN
+F 3 "~" H 6900 2350 50  0001 C CNN
+F 4 "A758BG106M1EDAE070" H 6900 2350 50  0001 C CNN "PN"
+F 5 "M: 80-A758BG106M1EDAE70" H 6900 2350 50  0001 C CNN "FORNITORI"
+F 6 "Condensatori a polimeri organici in alluminio 25V 10uF 20% ESR= 70mohms" H 6900 2350 50  0001 C CNN "NOTE"
+	1    6900 2350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6900 2200 6900 1950
+$Comp
+L Device:R R?
+U 1 1 6151C8AA
+P 7450 2150
+AR Path="/6151C8AA" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C8AA" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C8AA" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C8AA" Ref="R45"  Part="1" 
+F 0 "R45" V 7250 2250 50  0000 R CNN
+F 1 "3K7" V 7350 2250 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7380 2150 50  0001 C CNN
+F 3 "~" H 7450 2150 50  0001 C CNN
+F 4 "CRCW08053K74FKTA" H 7450 2150 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW0805-3.74K" H 7450 2150 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8watt 3.74Kohms 1% 100ppm" H 7450 2150 50  0001 C CNN "NOTE"
+	1    7450 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV?
+U 1 1 6151C8B3
+P 7450 2550
+AR Path="/615349CD/6151C8B3" Ref="RV?"  Part="1" 
+AR Path="/613F1FA9/6151C8B3" Ref="RV5"  Part="1" 
+F 0 "RV5" H 7380 2596 50  0000 R CNN
+F 1 "1K" H 7380 2505 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potenziometro_Serie_35_35WR100KLFTR" H 7450 2550 50  0001 C CNN
+F 3 "~" H 7450 2550 50  0001 C CNN
+F 4 "35WR1KLFTR" H 7450 2550 50  0001 C CNN "PN"
+F 5 "858-35WR1KLFTR" H 7450 2550 50  0001 C CNN "FORNITORI"
+F 6 "Resistenze trimmer - SMD 1K OHM 3MM ST CERM" H 7450 2550 50  0001 C CNN "NOTE"
+	1    7450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2400 7450 2300
+Wire Wire Line
+	7450 2700 7450 2800
+Wire Wire Line
+	7450 2800 7600 2800
+Wire Wire Line
+	7600 2800 7600 2550
+Wire Wire Line
+	6350 2800 6900 2800
+Connection ~ 7450 2800
+Wire Wire Line
+	6900 1950 7450 1950
+Wire Wire Line
+	7450 1950 7450 2000
+Connection ~ 6900 1950
+Wire Wire Line
+	6900 1950 6900 1850
+$Comp
+L Device:R R?
+U 1 1 6151C8C7
+P 7450 1800
+AR Path="/6151C8C7" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C8C7" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C8C7" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C8C7" Ref="R44"  Part="1" 
+F 0 "R44" V 7250 1900 50  0000 R CNN
+F 1 "1K" V 7350 1900 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7380 1800 50  0001 C CNN
+F 3 "~" H 7450 1800 50  0001 C CNN
+F 4 "CRCW08051K00FKEAC" H 7450 1800 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08051K00FKEAC" H 7450 1800 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 1Kohms 1% Commercial Use" H 7450 1800 50  0001 C CNN "NOTE"
+	1    7450 1800
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7450 1950
+Connection ~ 7450 1550
+Wire Wire Line
+	6900 2500 6900 2800
+Connection ~ 6900 2800
+Wire Wire Line
+	6900 2800 7450 2800
+Wire Wire Line
+	7450 1650 7450 1550
+Wire Wire Line
+	8000 1950 8000 2100
+Wire Wire Line
+	7600 2800 8000 2800
+Wire Wire Line
+	8000 2800 8000 2500
+Connection ~ 7600 2800
+$Comp
+L Device:R R?
+U 1 1 6151C8E0
+P 8400 1950
+AR Path="/6151C8E0" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C8E0" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C8E0" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C8E0" Ref="R46"  Part="1" 
+F 0 "R46" V 8200 2050 50  0000 R CNN
+F 1 "47K" V 8300 2050 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8330 1950 50  0001 C CNN
+F 3 "~" H 8400 1950 50  0001 C CNN
+F 4 "CRCW080547K0JNEAC" H 8400 1950 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW080547K0JNEAC" H 8400 1950 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 47Kohms 5% Commercial Use" H 8400 1950 50  0001 C CNN "NOTE"
+	1    8400 1950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7450 1950 8000 1950
+Connection ~ 8000 1950
+Wire Wire Line
+	8000 1950 8250 1950
+$Comp
+L Diode:1N4001 D?
+U 1 1 6151C8EC
+P 8750 1650
+AR Path="/615349CD/6151C8EC" Ref="D?"  Part="1" 
+AR Path="/613F1FA9/6151C8EC" Ref="D9"  Part="1" 
+F 0 "D9" H 8750 1867 50  0000 C CNN
+F 1 "1N4001" H 8750 1776 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 8750 1475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 8750 1650 50  0001 C CNN
+F 4 "1N4001-E3/54" H 8750 1650 50  0001 C CNN "PN"
+F 5 "M: 625-1N4001-E3/54" H 8750 1650 50  0001 C CNN "FORNITORI"
+F 6 "Raddrizzatori Vr/50V Io/1A" H 8750 1650 50  0001 C CNN "NOTE"
+	1    8750 1650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8550 1950 8750 1950
+Wire Wire Line
+	8750 1950 8750 1800
+Wire Wire Line
+	7450 1050 8750 1050
+Wire Wire Line
+	8750 1050 8750 1500
+Connection ~ 7450 1050
+$Comp
+L Device:CP C?
+U 1 1 6151C8FA
+P 8750 2500
+AR Path="/6151C8FA" Ref="C?"  Part="1" 
+AR Path="/612E8A4A/6151C8FA" Ref="C?"  Part="1" 
+AR Path="/615349CD/6151C8FA" Ref="C?"  Part="1" 
+AR Path="/613F1FA9/6151C8FA" Ref="C22"  Part="1" 
+F 0 "C22" H 8868 2546 50  0000 L CNN
+F 1 "33uF" H 8868 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 8788 2350 50  0001 C CNN
+F 3 "~" H 8750 2500 50  0001 C CNN
+F 4 "875105359004" H 8750 2500 50  0001 C CNN "PN"
+F 5 "M: 710-875105359004" H 8750 2500 50  0001 C CNN "FORNITORI"
+F 6 "Condensatori a polimeri organici in alluminio WCAP-PSLP 16V 33uF 20% ESR=30mOhms" H 8750 2500 50  0001 C CNN "NOTE"
+	1    8750 2500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8300 2300 8750 2300
+Wire Wire Line
+	8750 2300 8750 2350
+Wire Wire Line
+	8000 2800 8750 2800
+Wire Wire Line
+	8750 2800 8750 2650
+Connection ~ 8000 2800
+Wire Wire Line
+	8750 2300 8750 1950
+Connection ~ 8750 2300
+Connection ~ 8750 1950
+$Comp
+L Device:CP C?
+U 1 1 6151C90B
+P 9200 1950
+AR Path="/6151C90B" Ref="C?"  Part="1" 
+AR Path="/612E8A4A/6151C90B" Ref="C?"  Part="1" 
+AR Path="/615349CD/6151C90B" Ref="C?"  Part="1" 
+AR Path="/613F1FA9/6151C90B" Ref="C23"  Part="1" 
+F 0 "C23" H 9318 1996 50  0000 L CNN
+F 1 "10uF" H 9318 1905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9238 1800 50  0001 C CNN
+F 3 "~" H 9200 1950 50  0001 C CNN
+F 4 "A758BG106M1EDAE070" H 9200 1950 50  0001 C CNN "PN"
+F 5 "M: 80-A758BG106M1EDAE70" H 9200 1950 50  0001 C CNN "FORNITORI"
+F 6 "Condensatori a polimeri organici in alluminio 25V 10uF 20% ESR= 70mohms" H 9200 1950 50  0001 C CNN "NOTE"
+	1    9200 1950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8750 1050 9200 1050
+Wire Wire Line
+	9200 1050 9200 1800
+Connection ~ 8750 1050
+Wire Wire Line
+	8750 2800 9200 2800
+Wire Wire Line
+	9200 2800 9200 2100
+Connection ~ 8750 2800
+Connection ~ 9200 1050
+Text GLabel 10000 1050 2    50   Input ~ 0
+FIL2+
+Wire Wire Line
+	2250 1800 2250 1550
+Text Label 7200 4200 0    50   ~ 0
+VccNrg
+$Comp
+L Diode_Bridge:GBU4J D?
+U 1 1 6151C989
+P 2250 2100
+AR Path="/615349CD/6151C989" Ref="D?"  Part="1" 
+AR Path="/613F1FA9/6151C989" Ref="D5"  Part="1" 
+F 0 "D5" V 2296 1756 50  0000 R CNN
+F 1 "GBU4J" V 2205 1756 50  0000 R CNN
+F 2 "Diode_THT:Diode_Bridge_Vishay_GBU" H 2400 2225 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/88656/gbu4a.pdf" H 2250 2100 50  0001 C CNN
+F 4 " GBU4J" H 2250 2100 50  0001 C CNN "PN"
+F 5 "M: 905-GBU4J" H 2250 2100 50  0001 C CNN "FORNITORI"
+F 6 "Raddrizzatori a ponte 600V 4A Bridge Rectifier" H 2250 2100 50  0001 C CNN "NOTE"
+	1    2250 2100
+	0    -1   1    0   
+$EndComp
+Text GLabel 1400 2400 0    50   Input ~ 0
+12VAC2
+Text GLabel 1600 1700 0    50   Input ~ 0
+COM_12VAC2
+$Comp
+L Device:CP C?
+U 1 1 6151C994
+P 7200 4600
+AR Path="/6151C994" Ref="C?"  Part="1" 
+AR Path="/612E8A4A/6151C994" Ref="C?"  Part="1" 
+AR Path="/615349CD/6151C994" Ref="C?"  Part="1" 
+AR Path="/613F1FA9/6151C994" Ref="C20"  Part="1" 
+F 0 "C20" H 7318 4646 50  0000 L CNN
+F 1 "330uF" H 7318 4555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 7238 4450 50  0001 C CNN
+F 3 "~" H 7200 4600 50  0001 C CNN
+F 4 "A750KS337M1EAAE018" H 7200 4600 50  0001 C CNN "PN"
+F 5 "M: 80-A750KS337M1EAAE18" H 7200 4600 50  0001 C CNN "FORNITORI"
+F 6 "Condensatori a polimeri organici in alluminio 25V 330uF 20% ESR18mOhms 2K hours" H 7200 4600 50  0001 C CNN "NOTE"
+	1    7200 4600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7200 4450 7200 4200
+Wire Wire Line
+	7200 4750 7200 5450
+$Comp
+L Device:R R?
+U 1 1 6151C99F
+P 6800 4200
+AR Path="/6151C99F" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C99F" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C99F" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C99F" Ref="R43"  Part="1" 
+F 0 "R43" V 6600 4300 50  0000 R CNN
+F 1 "1R" V 6700 4300 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 6730 4200 50  0001 C CNN
+F 3 "~" H 6800 4200 50  0001 C CNN
+F 4 "CRGCQ2512J1R0" H 6800 4200 50  0001 C CNN "PN"
+F 5 "M: 279-CRGCQ2512J1R0" H 6800 4200 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD CRGCQ 2512 1R0 5% SMD Resistor" H 6800 4200 50  0001 C CNN "NOTE"
+	1    6800 4200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6950 4200 7200 4200
+Connection ~ 7200 4200
+Wire Wire Line
+	7500 4200 7750 4200
+Connection ~ 7500 4200
+$Comp
+L Diode:1N4001 D?
+U 1 1 6151C9B5
+P 8050 3700
+AR Path="/615349CD/6151C9B5" Ref="D?"  Part="1" 
+AR Path="/613F1FA9/6151C9B5" Ref="D7"  Part="1" 
+F 0 "D7" H 8050 3917 50  0000 C CNN
+F 1 "1N4001" H 8050 3826 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 8050 3525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 8050 3700 50  0001 C CNN
+F 4 "1N4001-E3/54" H 8050 3700 50  0001 C CNN "PN"
+F 5 "M: 625-1N4001-E3/54" H 8050 3700 50  0001 C CNN "FORNITORI"
+F 6 "Raddrizzatori Vr/50V Io/1A" H 8050 3700 50  0001 C CNN "NOTE"
+	1    8050 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3700 7500 4200
+Wire Wire Line
+	7500 3700 7900 3700
+Wire Wire Line
+	8350 4200 8600 4200
+Wire Wire Line
+	8600 4200 8600 3700
+Wire Wire Line
+	8600 3700 8200 3700
+$Comp
+L Device:CP C?
+U 1 1 6151C9C3
+P 8050 5000
+AR Path="/6151C9C3" Ref="C?"  Part="1" 
+AR Path="/612E8A4A/6151C9C3" Ref="C?"  Part="1" 
+AR Path="/615349CD/6151C9C3" Ref="C?"  Part="1" 
+AR Path="/613F1FA9/6151C9C3" Ref="C21"  Part="1" 
+F 0 "C21" H 8168 5046 50  0000 L CNN
+F 1 "10uF" H 8168 4955 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8088 4850 50  0001 C CNN
+F 3 "~" H 8050 5000 50  0001 C CNN
+F 4 "A758BG106M1EDAE070" H 8050 5000 50  0001 C CNN "PN"
+F 5 "M: 80-A758BG106M1EDAE70" H 8050 5000 50  0001 C CNN "FORNITORI"
+F 6 "Condensatori a polimeri organici in alluminio 25V 10uF 20% ESR= 70mohms" H 8050 5000 50  0001 C CNN "NOTE"
+	1    8050 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8050 4850 8050 4600
+$Comp
+L Device:R R?
+U 1 1 6151C9CD
+P 8600 5000
+AR Path="/6151C9CD" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C9CD" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C9CD" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C9CD" Ref="R48"  Part="1" 
+F 0 "R48" V 8400 5100 50  0000 R CNN
+F 1 "6K2" V 8500 5100 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8530 5000 50  0001 C CNN
+F 3 "~" H 8600 5000 50  0001 C CNN
+F 4 "CRCW08056K20FKEAC" H 8600 5000 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08056K20FKEAC" H 8600 5000 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8watt 6.2Kohms 1% 100ppm" H 8600 5000 50  0001 C CNN "NOTE"
+	1    8600 5000
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8600 5450
+Wire Wire Line
+	8050 4600 8600 4600
+Wire Wire Line
+	8600 4600 8600 4850
+Connection ~ 8050 4600
+Wire Wire Line
+	8050 4600 8050 4500
+$Comp
+L Device:R R?
+U 1 1 6151C9DB
+P 8600 4450
+AR Path="/6151C9DB" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C9DB" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C9DB" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C9DB" Ref="R47"  Part="1" 
+F 0 "R47" V 8400 4550 50  0000 R CNN
+F 1 "1K" V 8500 4550 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8530 4450 50  0001 C CNN
+F 3 "~" H 8600 4450 50  0001 C CNN
+F 4 "CRCW08051K00FKEAC" H 8600 4450 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08051K00FKEAC" H 8600 4450 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 1Kohms 1% Commercial Use" H 8600 4450 50  0001 C CNN "NOTE"
+	1    8600 4450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8600 4600
+Connection ~ 8600 4200
+Wire Wire Line
+	8050 5150 8050 5450
+Connection ~ 8050 5450
+Wire Wire Line
+	8050 5450 8600 5450
+Wire Wire Line
+	8600 4300 8600 4200
+$Comp
+L Diode:1N4001 D?
+U 1 1 6151C9EA
+P 8950 4300
+AR Path="/615349CD/6151C9EA" Ref="D?"  Part="1" 
+AR Path="/613F1FA9/6151C9EA" Ref="D12"  Part="1" 
+F 0 "D12" H 8950 4517 50  0000 C CNN
+F 1 "1N4001" H 8950 4426 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 8950 4125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 8950 4300 50  0001 C CNN
+F 4 "1N4001-E3/54" H 8950 4300 50  0001 C CNN "PN"
+F 5 "M: 625-1N4001-E3/54" H 8950 4300 50  0001 C CNN "FORNITORI"
+F 6 "Raddrizzatori Vr/50V Io/1A" H 8950 4300 50  0001 C CNN "NOTE"
+	1    8950 4300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8950 4600 8950 4450
+Wire Wire Line
+	8600 3700 8950 3700
+Wire Wire Line
+	8950 3700 8950 4150
+Connection ~ 8600 3700
+$Comp
+L Device:CP C?
+U 1 1 6151C9F7
+P 9400 4600
+AR Path="/6151C9F7" Ref="C?"  Part="1" 
+AR Path="/612E8A4A/6151C9F7" Ref="C?"  Part="1" 
+AR Path="/615349CD/6151C9F7" Ref="C?"  Part="1" 
+AR Path="/613F1FA9/6151C9F7" Ref="C24"  Part="1" 
+F 0 "C24" H 9518 4646 50  0000 L CNN
+F 1 "10uF" H 9518 4555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9438 4450 50  0001 C CNN
+F 3 "~" H 9400 4600 50  0001 C CNN
+F 4 "A758BG106M1EDAE070" H 9400 4600 50  0001 C CNN "PN"
+F 5 "M: 80-A758BG106M1EDAE70" H 9400 4600 50  0001 C CNN "FORNITORI"
+F 6 "Condensatori a polimeri organici in alluminio 25V 10uF 20% ESR= 70mohms" H 9400 4600 50  0001 C CNN "NOTE"
+	1    9400 4600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9400 3700 9400 4450
+Wire Wire Line
+	9400 5450 9400 4750
+Connection ~ 9400 3700
+Wire Wire Line
+	7200 5550 7200 5450
+Connection ~ 7200 5450
+Text GLabel 9850 3700 2    50   Input ~ 0
+VCC_M9V
+Wire Wire Line
+	7200 5450 8050 5450
+Wire Wire Line
+	7200 4200 7500 4200
+Connection ~ 8950 3700
+Wire Wire Line
+	8950 3700 9400 3700
+Wire Wire Line
+	8600 4600 8950 4600
+Wire Wire Line
+	9400 3700 9850 3700
+Wire Wire Line
+	9200 1050 10000 1050
+Wire Wire Line
+	2250 1550 3500 1550
+Wire Wire Line
+	8600 5450 9400 5450
+Wire Wire Line
+	8600 5150 8600 5450
+$Comp
+L Regulator_Linear:LM337_TO220 U7
+U 1 1 615352C3
+P 6900 1550
+F 0 "U7" H 6900 1308 50  0000 C CNN
+F 1 "LM337_TO220" H 6900 1399 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6900 1350 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm337-n.pdf" H 6900 1550 50  0001 C CNN
+	1    6900 1550
+	1    0    0    1   
+$EndComp
+Connection ~ 6350 2800
+Wire Wire Line
+	6350 1050 6350 1550
+Connection ~ 6350 1550
+Wire Wire Line
+	6350 1550 6600 1550
+Wire Wire Line
+	5700 1550 5700 2050
+Wire Wire Line
+	6350 1550 6350 2050
+Connection ~ 5700 2800
+Wire Wire Line
+	6350 2800 6350 2350
+Wire Wire Line
+	5700 2800 6350 2800
+Wire Wire Line
+	6350 1550 6200 1550
+Connection ~ 5700 1550
+Wire Wire Line
+	5700 1550 5900 1550
+$Comp
+L Device:R R?
+U 1 1 6151C874
+P 6050 1550
+AR Path="/6151C874" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C874" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C874" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C874" Ref="R42"  Part="1" 
+F 0 "R42" V 5850 1650 50  0000 R CNN
+F 1 "1R" V 5950 1650 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 5980 1550 50  0001 C CNN
+F 3 "~" H 6050 1550 50  0001 C CNN
+F 4 "CRGCQ2512J1R0" H 6050 1550 50  0001 C CNN "PN"
+F 5 "M: 279-CRGCQ2512J1R0" H 6050 1550 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD CRGCQ 2512 1R0 5% SMD Resistor" H 6050 1550 50  0001 C CNN "NOTE"
+	1    6050 1550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5700 1550 5400 1550
+Wire Wire Line
+	5700 2800 5700 2350
+Wire Wire Line
+	4950 2800 5700 2800
+Connection ~ 4950 1550
+Wire Wire Line
+	4950 1550 5100 1550
+$Comp
+L Device:R R?
+U 1 1 6151C866
+P 5250 1550
+AR Path="/6151C866" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C866" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C866" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C866" Ref="R41"  Part="1" 
+F 0 "R41" V 5050 1650 50  0000 R CNN
+F 1 "1R" V 5150 1650 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 5180 1550 50  0001 C CNN
+F 3 "~" H 5250 1550 50  0001 C CNN
+F 4 "CRGCQ2512J1R0" H 5250 1550 50  0001 C CNN "PN"
+F 5 "M: 279-CRGCQ2512J1R0" H 5250 1550 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD CRGCQ 2512 1R0 5% SMD Resistor" H 5250 1550 50  0001 C CNN "NOTE"
+	1    5250 1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 6151C85D
+P 6350 2200
+AR Path="/6151C85D" Ref="C?"  Part="1" 
+AR Path="/612E8A4A/6151C85D" Ref="C?"  Part="1" 
+AR Path="/615349CD/6151C85D" Ref="C?"  Part="1" 
+AR Path="/613F1FA9/6151C85D" Ref="C18"  Part="1" 
+F 0 "C18" H 6468 2246 50  0000 L CNN
+F 1 "330uF" H 6468 2155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 6388 2050 50  0001 C CNN
+F 3 "~" H 6350 2200 50  0001 C CNN
+F 4 "A750KS337M1EAAE018" H 6350 2200 50  0001 C CNN "PN"
+F 5 "M: 80-A750KS337M1EAAE18" H 6350 2200 50  0001 C CNN "FORNITORI"
+F 6 "Condensatori a polimeri organici in alluminio 25V 330uF 20% ESR18mOhms 2K hours" H 6350 2200 50  0001 C CNN "NOTE"
+	1    6350 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 6151C854
+P 5700 2200
+AR Path="/6151C854" Ref="C?"  Part="1" 
+AR Path="/612E8A4A/6151C854" Ref="C?"  Part="1" 
+AR Path="/615349CD/6151C854" Ref="C?"  Part="1" 
+AR Path="/613F1FA9/6151C854" Ref="C17"  Part="1" 
+F 0 "C17" H 5818 2246 50  0000 L CNN
+F 1 "330uF" H 5818 2155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5738 2050 50  0001 C CNN
+F 3 "~" H 5700 2200 50  0001 C CNN
+F 4 "A750KS337M1EAAE018" H 5700 2200 50  0001 C CNN "PN"
+F 5 "M: 80-A750KS337M1EAAE18" H 5700 2200 50  0001 C CNN "FORNITORI"
+F 6 "Condensatori a polimeri organici in alluminio 25V 330uF 20% ESR18mOhms 2K hours" H 5700 2200 50  0001 C CNN "NOTE"
+	1    5700 2200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4700 1550 4950 1550
+Wire Wire Line
+	4300 1550 4400 1550
+$Comp
+L Device:R R?
+U 1 1 6151C849
+P 4550 1550
+AR Path="/6151C849" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C849" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C849" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C849" Ref="R40"  Part="1" 
+F 0 "R40" V 4350 1650 50  0000 R CNN
+F 1 "1R" V 4450 1650 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 4480 1550 50  0001 C CNN
+F 3 "~" H 4550 1550 50  0001 C CNN
+F 4 "CRGCQ2512J1R0" H 4550 1550 50  0001 C CNN "PN"
+F 5 "M: 279-CRGCQ2512J1R0" H 4550 1550 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD CRGCQ 2512 1R0 5% SMD Resistor" H 4550 1550 50  0001 C CNN "NOTE"
+	1    4550 1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6151C840
+P 4150 1550
+AR Path="/6151C840" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6151C840" Ref="R?"  Part="1" 
+AR Path="/615349CD/6151C840" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6151C840" Ref="R39"  Part="1" 
+F 0 "R39" V 3950 1650 50  0000 R CNN
+F 1 "1R" V 4050 1650 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 4080 1550 50  0001 C CNN
+F 3 "~" H 4150 1550 50  0001 C CNN
+F 4 "CRGCQ2512J1R0" H 4150 1550 50  0001 C CNN "PN"
+F 5 "M: 279-CRGCQ2512J1R0" H 4150 1550 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD CRGCQ 2512 1R0 5% SMD Resistor" H 4150 1550 50  0001 C CNN "NOTE"
+	1    4150 1550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4950 2350 4950 2800
+Wire Wire Line
+	4950 2050 4950 1550
+$Comp
+L Device:CP C?
+U 1 1 6151C835
+P 4950 2200
+AR Path="/6151C835" Ref="C?"  Part="1" 
+AR Path="/612E8A4A/6151C835" Ref="C?"  Part="1" 
+AR Path="/615349CD/6151C835" Ref="C?"  Part="1" 
+AR Path="/613F1FA9/6151C835" Ref="C16"  Part="1" 
+F 0 "C16" H 5068 2246 50  0000 L CNN
+F 1 "330uF" H 5068 2155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4988 2050 50  0001 C CNN
+F 3 "~" H 4950 2200 50  0001 C CNN
+F 4 "A750KS337M1EAAE018" H 4950 2200 50  0001 C CNN "PN"
+F 5 "M: 80-A750KS337M1EAAE18" H 4950 2200 50  0001 C CNN "FORNITORI"
+F 6 "Condensatori a polimeri organici in alluminio 25V 330uF 20% ESR18mOhms 2K hours" H 4950 2200 50  0001 C CNN "NOTE"
+	1    4950 2200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2550 2100 2550 1700
+Wire Wire Line
+	2550 1700 1600 1700
+Wire Wire Line
+	2250 2400 2250 2800
+Wire Wire Line
+	2250 2800 4950 2800
+Connection ~ 4950 2800
+$Comp
+L power:GND1 #PWR0125
+U 1 1 615983CD
+P 4950 2950
+F 0 "#PWR0125" H 4950 2700 50  0001 C CNN
+F 1 "GND1" H 4955 2777 50  0000 C CNN
+F 2 "" H 4950 2950 50  0001 C CNN
+F 3 "" H 4950 2950 50  0001 C CNN
+	1    4950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2950 4950 2800
+$Comp
+L Transistor_BJT:BC847W Q5
+U 1 1 6159D0FE
+P 8100 2300
+F 0 "Q5" H 8291 2254 50  0000 L CNN
+F 1 "BC847W" H 8291 2345 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 8300 2225 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 8100 2300 50  0001 L CNN
+	1    8100 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Regulator_Linear:LM337_TO220 U8
+U 1 1 615B6939
+P 8050 4200
+F 0 "U8" H 8050 3958 50  0000 C CNN
+F 1 "LM337_TO220" H 8050 4049 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8050 4000 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm337-n.pdf" H 8050 4200 50  0001 C CNN
+	1    8050 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0126
+U 1 1 615D1F8E
+P 7200 5550
+F 0 "#PWR0126" H 7200 5300 50  0001 C CNN
+F 1 "GND1" H 7205 5377 50  0000 C CNN
+F 2 "" H 7200 5550 50  0001 C CNN
+F 3 "" H 7200 5550 50  0001 C CNN
+	1    7200 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1550 3500 4200
+Wire Wire Line
+	3500 4200 6650 4200
+Connection ~ 3500 1550
+Wire Wire Line
+	3500 1550 4000 1550
+Text GLabel 3900 6000 1    50   Input ~ 0
+VCC_9V
+$Comp
+L Comparator:MC34161DG U6
+U 1 1 61688108
+P 3100 6650
+F 0 "U6" H 3100 7320 50  0000 C CNN
+F 1 "MC34161DG" H 2600 5993 50  0001 L BNN
+F 2 "Package_SO:SOIC-8-127P600X175-8N" H 3100 6650 50  0001 L BNN
+F 3 "" H 3100 6650 50  0001 L BNN
+F 4 "MC34161DR2G" H 3100 7229 50  0000 C CNN "PN"
+F 5 "M: 863-MC34161DR2G" H 3100 6650 50  0001 C CNN "FORNITORI"
+F 6 "Circuiti di supervisione Universal Voltage Monitor" H 3100 6650 50  0001 C CNN "NOTE"
+	1    3100 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 6250 3900 6250
+Wire Wire Line
+	3900 6250 3900 6000
+$Comp
+L power:GND1 #PWR0127
+U 1 1 6168DB42
+P 3900 7250
+F 0 "#PWR0127" H 3900 7000 50  0001 C CNN
+F 1 "GND1" H 3905 7077 50  0000 C CNN
+F 2 "" H 3900 7250 50  0001 C CNN
+F 3 "" H 3900 7250 50  0001 C CNN
+	1    3900 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 7050 3900 7050
+Wire Wire Line
+	3900 7050 3900 7250
+Wire Wire Line
+	3800 6550 3950 6550
+Wire Wire Line
+	3950 6550 3950 6500
+Wire Wire Line
+	3950 6450 3800 6450
+$Comp
+L Device:R R?
+U 1 1 6169E0A6
+P 1500 5800
+AR Path="/6169E0A6" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6169E0A6" Ref="R?"  Part="1" 
+AR Path="/615349CD/6169E0A6" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6169E0A6" Ref="R35"  Part="1" 
+F 0 "R35" V 1300 5900 50  0000 R CNN
+F 1 "6K2" V 1400 5900 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1430 5800 50  0001 C CNN
+F 3 "~" H 1500 5800 50  0001 C CNN
+F 4 "CRCW08056K20FKEAC" H 1500 5800 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08056K20FKEAC" H 1500 5800 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8watt 6.2Kohms 1% 100ppm" H 1500 5800 50  0001 C CNN "NOTE"
+	1    1500 5800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6169E7FD
+P 1800 6450
+AR Path="/6169E7FD" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6169E7FD" Ref="R?"  Part="1" 
+AR Path="/615349CD/6169E7FD" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6169E7FD" Ref="R37"  Part="1" 
+F 0 "R37" V 1600 6550 50  0000 R CNN
+F 1 "6K2" V 1700 6550 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1730 6450 50  0001 C CNN
+F 3 "~" H 1800 6450 50  0001 C CNN
+F 4 "CRCW08056K20FKEAC" H 1800 6450 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08056K20FKEAC" H 1800 6450 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8watt 6.2Kohms 1% 100ppm" H 1800 6450 50  0001 C CNN "NOTE"
+	1    1800 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6169EB34
+P 1500 6450
+AR Path="/6169EB34" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/6169EB34" Ref="R?"  Part="1" 
+AR Path="/615349CD/6169EB34" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/6169EB34" Ref="R36"  Part="1" 
+F 0 "R36" V 1300 6550 50  0000 R CNN
+F 1 "6K2" V 1400 6550 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1430 6450 50  0001 C CNN
+F 3 "~" H 1500 6450 50  0001 C CNN
+F 4 "CRCW08056K20FKEAC" H 1500 6450 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08056K20FKEAC" H 1500 6450 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8watt 6.2Kohms 1% 100ppm" H 1500 6450 50  0001 C CNN "NOTE"
+	1    1500 6450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6600 1500 6650
+Wire Wire Line
+	1500 6650 1800 6650
+Wire Wire Line
+	1800 6600 1800 6650
+Connection ~ 1800 6650
+Wire Wire Line
+	1800 6650 2400 6650
+Wire Wire Line
+	1800 6150 2000 6150
+Wire Wire Line
+	2400 6150 2400 6450
+Wire Wire Line
+	1800 6150 1800 6300
+Wire Wire Line
+	1500 6300 1500 6200
+Wire Wire Line
+	1500 6200 2300 6200
+Wire Wire Line
+	2300 6200 2300 6550
+Wire Wire Line
+	2300 6550 2400 6550
+Connection ~ 1500 6200
+Text GLabel 1500 5150 1    50   Input ~ 0
+VCC_M9V
+Text GLabel 2000 5050 1    50   Input ~ 0
+FIL2+
+$Comp
+L Device:R R?
+U 1 1 616DC58E
+P 1500 5400
+AR Path="/616DC58E" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/616DC58E" Ref="R?"  Part="1" 
+AR Path="/615349CD/616DC58E" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/616DC58E" Ref="R34"  Part="1" 
+F 0 "R34" V 1300 5500 50  0000 R CNN
+F 1 "1K" V 1400 5500 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1430 5400 50  0001 C CNN
+F 3 "~" H 1500 5400 50  0001 C CNN
+F 4 "CRCW08051K00FKEAC" H 1500 5400 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW08051K00FKEAC" H 1500 5400 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 1Kohms 1% Commercial Use" H 1500 5400 50  0001 C CNN "NOTE"
+	1    1500 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV?
+U 1 1 616DF807
+P 2000 5400
+AR Path="/615349CD/616DF807" Ref="RV?"  Part="1" 
+AR Path="/613F1FA9/616DF807" Ref="RV4"  Part="1" 
+F 0 "RV4" H 1930 5446 50  0000 R CNN
+F 1 "1K" H 1930 5355 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potenziometro_Serie_35_35WR100KLFTR" H 2000 5400 50  0001 C CNN
+F 3 "~" H 2000 5400 50  0001 C CNN
+F 4 "35WR1KLFTR" H 2000 5400 50  0001 C CNN "PN"
+F 5 "858-35WR1KLFTR" H 2000 5400 50  0001 C CNN "FORNITORI"
+F 6 "Resistenze trimmer - SMD 1K OHM 3MM ST CERM" H 2000 5400 50  0001 C CNN "NOTE"
+	1    2000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5400 2150 5200
+Wire Wire Line
+	2150 5200 2000 5200
+Wire Wire Line
+	2000 5050 2000 5200
+Connection ~ 2000 5200
+Wire Wire Line
+	2000 5200 2000 5250
+$Comp
+L Device:R R?
+U 1 1 616EE88C
+P 2000 5750
+AR Path="/616EE88C" Ref="R?"  Part="1" 
+AR Path="/612E8A4A/616EE88C" Ref="R?"  Part="1" 
+AR Path="/615349CD/616EE88C" Ref="R?"  Part="1" 
+AR Path="/613F1FA9/616EE88C" Ref="R38"  Part="1" 
+F 0 "R38" V 1800 5850 50  0000 R CNN
+F 1 "5K" V 1900 5850 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1930 5750 50  0001 C CNN
+F 3 "~" H 2000 5750 50  0001 C CNN
+F 4 "CRCW08055K00JNTA" H 2000 5750 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW0805J-5K" H 2000 5750 50  0001 C CNN "FORNITORI"
+F 6 "Resistori a pellicola spessa - SMD 1/8watt 5Kohms 1% 100ppm" H 2000 5750 50  0001 C CNN "NOTE"
+	1    2000 5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5600 2000 5550
+Wire Wire Line
+	1500 5250 1500 5150
+Wire Wire Line
+	1500 5650 1500 5550
+Wire Wire Line
+	1500 5950 1500 6200
+Wire Wire Line
+	2000 5900 2000 6150
+Connection ~ 2000 6150
+Wire Wire Line
+	2000 6150 2400 6150
+Text GLabel 2050 6850 0    50   Input ~ 0
+VCC_9V
+Wire Wire Line
+	2050 6850 2400 6850
+Text GLabel 4450 6500 2    50   Input ~ 0
+HVENA_2
+Connection ~ 3950 6500
+Wire Wire Line
+	3950 6500 3950 6450
+Wire Wire Line
+	3950 6500 4450 6500
+$EndSCHEMATC

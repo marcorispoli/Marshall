@@ -1,0 +1,634 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transformer:PA5099.005NLT T?
+U 1 1 6188F43A
+P 7350 2500
+F 0 "T?" H 7700 3300 50  0000 C CNN
+F 1 "PA5099.006NLT" H 7700 3200 50  0000 C CNN
+F 2 "Transformer_SMD:PA5099005NLT" H 7600 3300 50  0001 L CNN
+F 3 "https://hu.mouser.com/datasheet/2/336/P846-1891821.pdf" H 7850 2950 50  0001 L CNN
+F 4 "Power Transformers 17W 15uH 200-700kHz 9-57V Forward" H 8400 2850 50  0001 L CNN "Description"
+F 5 "15.5" H 8400 2600 50  0001 L CNN "Height"
+F 6 "Pulse" H 7600 3100 50  0001 L CNN "Manufacturer_Name"
+F 7 "PA5099.005NLT" H 8400 2950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "673-PA5099.005NLT" H 8400 2450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PA5099005NLT?qs=DPoM0jnrROWNn4vlSvPY4w%3D%3D" H 8400 2350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PA5099.006NL" H 7350 2500 50  0001 C CNN "PN"
+F 11 "M: 673-PA5099.006NLT" H 7350 2500 50  0001 C CNN "FORNITORE"
+F 12 "Trasformatore Flyback 15uH" H 7350 2500 50  0001 C CNN "NOTE"
+	1    7350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:SS14 D?
+U 1 1 618A1423
+P 9450 4400
+F 0 "D?" H 9850 4667 50  0000 C CNN
+F 1 "SS14" H 9850 4576 50  0000 C CNN
+F 2 "Diode_SMD:DIOM5227X270N" H 9950 4550 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SS19-D.pdf" H 9950 4450 50  0001 L CNN
+F 4 "1.0 A Schottky Barrier Rectifiers" H 9950 4350 50  0001 L CNN "NOTE"
+F 5 "2.7" H 9950 4250 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 9950 4150 50  0001 L CNN "Manufacturer_Name"
+F 7 "SS14" H 9950 4050 50  0001 L CNN "PN"
+F 8 "M: 512-SS14" H 9950 3950 50  0001 L CNN "FORNITORE"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/SS14?qs=mVVXn4M53U%252BvrBaFv5vr4w%3D%3D" H 9950 3850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SS14" H 9950 3750 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ss14/on-semiconductor" H 9950 3650 50  0001 L CNN "Arrow Price/Stock"
+	1    9450 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:SS14 D?
+U 1 1 618A2CAE
+P 9400 2300
+F 0 "D?" H 9800 2567 50  0000 C CNN
+F 1 "SS14" H 9800 2476 50  0000 C CNN
+F 2 "Diode_SMD:DIOM5227X270N" H 9900 2450 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SS19-D.pdf" H 9900 2350 50  0001 L CNN
+F 4 "1.0 A Schottky Barrier Rectifiers" H 9900 2250 50  0001 L CNN "NOTE"
+F 5 "2.7" H 9900 2150 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 9900 2050 50  0001 L CNN "Manufacturer_Name"
+F 7 "SS14" H 9900 1950 50  0001 L CNN "PN"
+F 8 "M: 512-SS14" H 9900 1850 50  0001 L CNN "FORNITORE"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/SS14?qs=mVVXn4M53U%252BvrBaFv5vr4w%3D%3D" H 9900 1750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SS14" H 9900 1650 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ss14/on-semiconductor" H 9900 1550 50  0001 L CNN "Arrow Price/Stock"
+	1    9400 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:SS14 D?
+U 1 1 618A41F7
+P 8650 1200
+F 0 "D?" H 9050 1467 50  0000 C CNN
+F 1 "SS14" H 9050 1376 50  0000 C CNN
+F 2 "Diode_SMD:DIOM5227X270N" H 9150 1350 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SS19-D.pdf" H 9150 1250 50  0001 L CNN
+F 4 "1.0 A Schottky Barrier Rectifiers" H 9150 1150 50  0001 L CNN "NOTE"
+F 5 "2.7" H 9150 1050 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 9150 950 50  0001 L CNN "Manufacturer_Name"
+F 7 "SS14" H 9150 850 50  0001 L CNN "PN"
+F 8 "M: 512-SS14" H 9150 750 50  0001 L CNN "FORNITORE"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/SS14?qs=mVVXn4M53U%252BvrBaFv5vr4w%3D%3D" H 9150 650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SS14" H 9150 550 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ss14/on-semiconductor" H 9150 450 50  0001 L CNN "Arrow Price/Stock"
+	1    8650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 618A4999
+P 8250 3250
+F 0 "#PWR?" H 8250 3000 50  0001 C CNN
+F 1 "GND" H 8255 3077 50  0000 C CNN
+F 2 "" H 8250 3250 50  0001 C CNN
+F 3 "" H 8250 3250 50  0001 C CNN
+	1    8250 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2050 8250 2050
+Wire Wire Line
+	8250 2050 8250 2650
+Wire Wire Line
+	8000 2750 8250 2750
+Connection ~ 8250 2750
+Wire Wire Line
+	8250 2750 8250 3250
+Wire Wire Line
+	8000 2650 8250 2650
+Connection ~ 8250 2650
+Wire Wire Line
+	8250 2650 8250 2750
+Wire Wire Line
+	8000 2300 8700 2300
+Wire Wire Line
+	8000 2400 8400 2400
+Wire Wire Line
+	8400 1200 8750 1200
+$Comp
+L Device:C C?
+U 1 1 618AB69C
+P 9550 4700
+F 0 "C?" H 9665 4746 50  0000 L CNN
+F 1 "1uF" H 9665 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 9588 4550 50  0001 C CNN
+F 3 "~" H 9550 4700 50  0001 C CNN
+F 4 "C1206C105K3RAC7215" H 9550 4700 50  0001 C CNN "PN"
+F 5 "M: 80-C1206C105K3R7215" H 9550 4700 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori in ceramica multistrato MLCC - SMD/SMT 25V 1uF X7R 1206 10%" H 9550 4700 50  0001 C CNN "NOTE"
+	1    9550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 618AC393
+P 9550 4950
+F 0 "#PWR?" H 9550 4700 50  0001 C CNN
+F 1 "GND" H 9555 4777 50  0000 C CNN
+F 2 "" H 9550 4950 50  0001 C CNN
+F 3 "" H 9550 4950 50  0001 C CNN
+	1    9550 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4950 9550 4850
+Wire Wire Line
+	9350 4400 9550 4400
+Wire Wire Line
+	9550 4400 9550 4550
+Text Notes 9600 4300 0    50   ~ 0
+10VDC @ 50mA\n
+$Comp
+L Device:R R?
+U 1 1 618AD05D
+P 10000 4700
+F 0 "R?" H 10070 4746 50  0000 L CNN
+F 1 "10K" H 10070 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9930 4700 50  0001 C CNN
+F 3 "~" H 10000 4700 50  0001 C CNN
+F 4 "CRCW080510K0FKEAC" H 10000 4700 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW080510K0FKEAC" H 10000 4700 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 10Kohms 1% Commercial Use" H 10000 4700 50  0001 C CNN "NOTE"
+	1    10000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4400 10000 4400
+Wire Wire Line
+	10000 4400 10000 4550
+Connection ~ 9550 4400
+$Comp
+L power:GND #PWR?
+U 1 1 618B01DF
+P 10000 4950
+F 0 "#PWR?" H 10000 4700 50  0001 C CNN
+F 1 "GND" H 10005 4777 50  0000 C CNN
+F 2 "" H 10000 4950 50  0001 C CNN
+F 3 "" H 10000 4950 50  0001 C CNN
+	1    10000 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 4950 10000 4850
+Wire Wire Line
+	10000 4400 10400 4400
+Connection ~ 10000 4400
+Text GLabel 10400 4400 2    50   Input ~ 0
+10VDC
+$Comp
+L Device:C C?
+U 1 1 618B1F19
+P 9500 2500
+F 0 "C?" H 9615 2546 50  0000 L CNN
+F 1 "4u7" H 9615 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 9538 2350 50  0001 C CNN
+F 3 "~" H 9500 2500 50  0001 C CNN
+F 4 "C3216X7R1E475K160AC" H 9500 2500 50  0001 C CNN "PN"
+F 5 "M: 810-C3216X7R1E475K" H 9500 2500 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori in ceramica multistrato MLCC - SMD/SMT 25V 1uF X7R 1206 10%" H 9500 2500 50  0001 C CNN "NOTE"
+	1    9500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 618B2673
+P 9500 1450
+F 0 "C?" H 9615 1496 50  0000 L CNN
+F 1 "4u7" H 9615 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 9538 1300 50  0001 C CNN
+F 3 "~" H 9500 1450 50  0001 C CNN
+F 4 "C3216X7R1E475K160AC" H 9500 1450 50  0001 C CNN "PN"
+F 5 "M: 810-C3216X7R1E475K" H 9500 1450 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori in ceramica multistrato MLCC - SMD/SMT 25V 1uF X7R 1206 10%" H 9500 1450 50  0001 C CNN "NOTE"
+	1    9500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2300 9500 2300
+Wire Wire Line
+	9500 2300 9500 2350
+Wire Wire Line
+	9350 1200 9500 1200
+Wire Wire Line
+	9500 1200 9500 1300
+$Comp
+L power:GND #PWR?
+U 1 1 618B3625
+P 9500 2850
+F 0 "#PWR?" H 9500 2600 50  0001 C CNN
+F 1 "GND" H 9505 2677 50  0000 C CNN
+F 2 "" H 9500 2850 50  0001 C CNN
+F 3 "" H 9500 2850 50  0001 C CNN
+	1    9500 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2850 9500 2650
+Wire Wire Line
+	8400 1200 8400 2400
+$Comp
+L power:GND #PWR?
+U 1 1 618BC2EA
+P 9500 1800
+F 0 "#PWR?" H 9500 1550 50  0001 C CNN
+F 1 "GND" H 9505 1627 50  0000 C CNN
+F 2 "" H 9500 1800 50  0001 C CNN
+F 3 "" H 9500 1800 50  0001 C CNN
+	1    9500 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1800 9500 1600
+Text Notes 9400 2250 0    50   ~ 0
+12VDC @ 200mA\n
+Wire Wire Line
+	9500 2300 9950 2300
+Wire Wire Line
+	9950 2300 9950 2450
+$Comp
+L power:GND #PWR?
+U 1 1 618C1C43
+P 9950 2850
+F 0 "#PWR?" H 9950 2600 50  0001 C CNN
+F 1 "GND" H 9955 2677 50  0000 C CNN
+F 2 "" H 9950 2850 50  0001 C CNN
+F 3 "" H 9950 2850 50  0001 C CNN
+	1    9950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2850 9950 2750
+Wire Wire Line
+	9950 2300 10300 2300
+Connection ~ 9950 2300
+Text GLabel 10750 2300 2    50   Input ~ 0
+12VDC
+Connection ~ 9500 2300
+Wire Wire Line
+	9500 1200 9950 1200
+Wire Wire Line
+	9950 1200 9950 1350
+$Comp
+L power:GND #PWR?
+U 1 1 618C5E9E
+P 9950 1750
+F 0 "#PWR?" H 9950 1500 50  0001 C CNN
+F 1 "GND" H 9955 1577 50  0000 C CNN
+F 2 "" H 9950 1750 50  0001 C CNN
+F 3 "" H 9950 1750 50  0001 C CNN
+	1    9950 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1750 9950 1650
+Wire Wire Line
+	9950 1200 10350 1200
+Connection ~ 9950 1200
+Text GLabel 10350 1200 2    50   Input ~ 0
+-12VDC
+Connection ~ 9500 1200
+Text Notes 9550 1100 0    50   ~ 0
+-12VDC @ 100mA\n
+$Comp
+L Regulator_Switching:LT1930ES5#TRMPBF IC?
+U 1 1 618DAAFC
+P 6350 3400
+F 0 "IC?" H 6650 3050 50  0000 R CNN
+F 1 "LT1930ES5#TRMPBF" H 6700 2950 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT95P280X145-5N" H 7300 3500 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00091027.pdf" H 7300 3400 50  0001 L CNN
+F 4 "LT1930ES5#TRMPBF, DC-DC Converter, 1A Adjustable, Step Up, 1.6 MHz, 5-Pin SOT-23" H 7300 3300 50  0001 L CNN "NOTE"
+F 5 "1.45" H 7300 3200 50  0001 L CNN "Height"
+F 6 "Linear Technology" H 7300 3100 50  0001 L CNN "Manufacturer_Name"
+F 7 "LT1930ES5#TRMPBF" H 7300 3000 50  0001 L CNN "PN"
+F 8 "M: 584-LT1930ES5#TRMPBF" H 7300 2900 50  0001 L CNN "FORNITORE"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-LT1930ES5%23TRMPBF" H 7300 2800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "LT1930ES5#TRMPBF" H 7300 2700 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/lt1930es5trmpbf/linear-technology" H 7300 2600 50  0001 L CNN "Arrow Price/Stock"
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3900 6900 4050
+$Comp
+L power:GND #PWR?
+U 1 1 618F04F7
+P 6900 4050
+F 0 "#PWR?" H 6900 3800 50  0001 C CNN
+F 1 "GND" H 6905 3877 50  0000 C CNN
+F 2 "" H 6900 4050 50  0001 C CNN
+F 3 "" H 6900 4050 50  0001 C CNN
+	1    6900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3100 7050 2650
+Wire Wire Line
+	7050 2650 7350 2650
+Wire Wire Line
+	7350 2400 6700 2400
+Wire Wire Line
+	6700 2400 6700 3050
+$Comp
+L Device:R R?
+U 1 1 618F82A2
+P 10300 2600
+F 0 "R?" H 10370 2646 50  0000 L CNN
+F 1 "113K" H 10370 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10230 2600 50  0001 C CNN
+F 3 "~" H 10300 2600 50  0001 C CNN
+F 4 "CRCW0805113KFKEA" H 10300 2600 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW0805113KFKEA" H 10300 2600 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD 1/8watt 113Kohms 1% 100ppm" H 10300 2600 50  0001 C CNN "NOTE"
+	1    10300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2450 10300 2300
+Connection ~ 10300 2300
+$Comp
+L Device:R R?
+U 1 1 618FAA39
+P 10300 3100
+F 0 "R?" H 10370 3146 50  0000 L CNN
+F 1 "13K3" H 10370 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10230 3100 50  0001 C CNN
+F 3 "~" H 10300 3100 50  0001 C CNN
+F 4 "CRCW080513K3FKEA" H 10300 3100 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW0805-13.3K-E3" H 10300 3100 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD 1/8watt 13.3Kohms 1% 100ppm" H 10300 3100 50  0001 C CNN "NOTE"
+	1    10300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2950 10300 2900
+$Comp
+L power:GND #PWR?
+U 1 1 618FC01A
+P 10300 3400
+F 0 "#PWR?" H 10300 3150 50  0001 C CNN
+F 1 "GND" H 10305 3227 50  0000 C CNN
+F 2 "" H 10300 3400 50  0001 C CNN
+F 3 "" H 10300 3400 50  0001 C CNN
+	1    10300 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3400 10300 3250
+Wire Wire Line
+	8750 4400 8000 4400
+Wire Wire Line
+	8000 3000 8000 4400
+Wire Wire Line
+	10300 2300 10750 2300
+Wire Wire Line
+	7450 3650 10700 3650
+Wire Wire Line
+	10700 3650 10700 2900
+Wire Wire Line
+	10700 2900 10300 2900
+Connection ~ 10300 2900
+Wire Wire Line
+	10300 2900 10300 2750
+Wire Wire Line
+	6350 3550 6250 3550
+Wire Wire Line
+	6250 3550 6250 3050
+Wire Wire Line
+	6250 3050 6700 3050
+Connection ~ 6700 3050
+Wire Wire Line
+	6700 3050 6700 3100
+$Comp
+L Device:R R?
+U 1 1 6190DA3A
+P 9950 2600
+F 0 "R?" H 10020 2646 50  0000 L CNN
+F 1 "10K" H 10020 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9880 2600 50  0001 C CNN
+F 3 "~" H 9950 2600 50  0001 C CNN
+F 4 "CRCW080510K0FKEAC" H 9950 2600 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW080510K0FKEAC" H 9950 2600 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 10Kohms 1% Commercial Use" H 9950 2600 50  0001 C CNN "NOTE"
+	1    9950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190E347
+P 9950 1500
+F 0 "R?" H 10020 1546 50  0000 L CNN
+F 1 "10K" H 10020 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9880 1500 50  0001 C CNN
+F 3 "~" H 9950 1500 50  0001 C CNN
+F 4 "CRCW080510K0FKEAC" H 9950 1500 50  0001 C CNN "PN"
+F 5 "M: 71-CRCW080510K0FKEAC" H 9950 1500 50  0001 C CNN "FORNITORE"
+F 6 "Resistori a pellicola spessa - SMD 1/8Watt 10Kohms 1% Commercial Use" H 9950 1500 50  0001 C CNN "NOTE"
+	1    9950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6190EF92
+P 5950 2700
+F 0 "C?" H 6065 2746 50  0000 L CNN
+F 1 "1uF" H 6065 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5988 2550 50  0001 C CNN
+F 3 "~" H 5950 2700 50  0001 C CNN
+F 4 "C1206C105K3RAC7215" H 5950 2700 50  0001 C CNN "PN"
+F 5 "M: 80-C1206C105K3R7215" H 5950 2700 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori in ceramica multistrato MLCC - SMD/SMT 25V 1uF X7R 1206 10%" H 5950 2700 50  0001 C CNN "NOTE"
+	1    5950 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2400 5950 2400
+Wire Wire Line
+	5950 2400 5950 2550
+Connection ~ 6700 2400
+$Comp
+L power:GND #PWR?
+U 1 1 61910A4B
+P 5950 3300
+F 0 "#PWR?" H 5950 3050 50  0001 C CNN
+F 1 "GND" H 5955 3127 50  0000 C CNN
+F 2 "" H 5950 3300 50  0001 C CNN
+F 3 "" H 5950 3300 50  0001 C CNN
+	1    5950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3300 5950 2850
+$Comp
+L Device:L L?
+U 1 1 61912990
+P 5500 2400
+F 0 "L?" V 5690 2400 50  0000 C CNN
+F 1 "L" V 5599 2400 50  0000 C CNN
+F 2 "Inductor_SMD:LQM21PN1R0MC0D" H 5500 2400 50  0001 C CNN
+F 3 "~" H 5500 2400 50  0001 C CNN
+F 4 "LQM21PN1R0MC0D" V 5500 2400 50  0001 C CNN "PN"
+F 5 "81-LQM21PN1R0MC0D" V 5500 2400 50  0001 C CNN "FORNITORE"
+F 6 "Induttori fissi 0805 1.0uH 20%" V 5500 2400 50  0001 C CNN "NOTE"
+	1    5500 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 2400 5650 2400
+Connection ~ 5950 2400
+$Comp
+L Device:C C?
+U 1 1 619166E0
+P 5050 2700
+F 0 "C?" H 5165 2746 50  0000 L CNN
+F 1 "1uF" H 5165 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5088 2550 50  0001 C CNN
+F 3 "~" H 5050 2700 50  0001 C CNN
+F 4 "C1206C105K3RAC7215" H 5050 2700 50  0001 C CNN "PN"
+F 5 "M: 80-C1206C105K3R7215" H 5050 2700 50  0001 C CNN "FORNITORE"
+F 6 "Condensatori in ceramica multistrato MLCC - SMD/SMT 25V 1uF X7R 1206 10%" H 5050 2700 50  0001 C CNN "NOTE"
+	1    5050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2400 5050 2550
+$Comp
+L power:GND #PWR?
+U 1 1 61916865
+P 5050 3300
+F 0 "#PWR?" H 5050 3050 50  0001 C CNN
+F 1 "GND" H 5055 3127 50  0000 C CNN
+F 2 "" H 5050 3300 50  0001 C CNN
+F 3 "" H 5050 3300 50  0001 C CNN
+	1    5050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3300 5050 2850
+Wire Wire Line
+	5350 2400 5050 2400
+$Comp
+L Device:CP C?
+U 1 1 6191E834
+P 4250 2800
+F 0 "C?" H 4368 2846 50  0000 L CNN
+F 1 "270uF" H 4368 2755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4288 2650 50  0001 C CNN
+F 3 "~" H 4250 2800 50  0001 C CNN
+F 4 "860080474011" H 4250 2800 50  0001 C CNN "PN"
+F 5 "M: 710-860080474011" H 4250 2800 50  0001 C CNN "FORNITORE"
+F 6 "Wurth Elektronik: Condensatori elettrolitici in alluminio - conduttori radiali WCAP-ATLI 270uF 25V 20% Radial" H 4250 2800 50  0001 C CNN "NOTE"
+	1    4250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 6191F8C9
+P 3750 2800
+F 0 "C?" H 3868 2846 50  0000 L CNN
+F 1 "270uF" H 3868 2755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3788 2650 50  0001 C CNN
+F 3 "~" H 3750 2800 50  0001 C CNN
+F 4 "860080474011" H 3750 2800 50  0001 C CNN "PN"
+F 5 "M: 710-860080474011" H 3750 2800 50  0001 C CNN "FORNITORE"
+F 6 "Wurth Elektronik: Condensatori elettrolitici in alluminio - conduttori radiali WCAP-ATLI 270uF 25V 20% Radial" H 3750 2800 50  0001 C CNN "NOTE"
+	1    3750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 6192002E
+P 3200 2800
+F 0 "C?" H 3318 2846 50  0000 L CNN
+F 1 "270uF" H 3318 2755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3238 2650 50  0001 C CNN
+F 3 "~" H 3200 2800 50  0001 C CNN
+F 4 "860080474011" H 3200 2800 50  0001 C CNN "PN"
+F 5 "M: 710-860080474011" H 3200 2800 50  0001 C CNN "FORNITORE"
+F 6 "Wurth Elektronik: Condensatori elettrolitici in alluminio - conduttori radiali WCAP-ATLI 270uF 25V 20% Radial" H 3200 2800 50  0001 C CNN "NOTE"
+	1    3200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61920852
+P 2650 2800
+F 0 "C?" H 2768 2846 50  0000 L CNN
+F 1 "270uF" H 2768 2755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2688 2650 50  0001 C CNN
+F 3 "~" H 2650 2800 50  0001 C CNN
+F 4 "860080474011" H 2650 2800 50  0001 C CNN "PN"
+F 5 "M: 710-860080474011" H 2650 2800 50  0001 C CNN "FORNITORE"
+F 6 "Wurth Elektronik: Condensatori elettrolitici in alluminio - conduttori radiali WCAP-ATLI 270uF 25V 20% Radial" H 2650 2800 50  0001 C CNN "NOTE"
+	1    2650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2400 4250 2400
+Wire Wire Line
+	2650 2400 2650 2650
+Connection ~ 5050 2400
+Wire Wire Line
+	3200 2400 3200 2650
+Connection ~ 3200 2400
+Wire Wire Line
+	3200 2400 2650 2400
+Wire Wire Line
+	3750 2650 3750 2400
+Connection ~ 3750 2400
+Wire Wire Line
+	3750 2400 3200 2400
+Connection ~ 4250 2400
+Wire Wire Line
+	4250 2400 3750 2400
+Wire Wire Line
+	4250 2400 4250 2650
+Wire Wire Line
+	2650 2950 2650 3150
+Wire Wire Line
+	2650 3150 3200 3150
+Wire Wire Line
+	4250 3150 4250 2950
+Wire Wire Line
+	3750 2950 3750 3150
+Connection ~ 3750 3150
+Wire Wire Line
+	3750 3150 4250 3150
+Wire Wire Line
+	3200 2950 3200 3150
+Connection ~ 3200 3150
+Wire Wire Line
+	3200 3150 3450 3150
+Wire Wire Line
+	3450 3150 3450 3350
+Connection ~ 3450 3150
+Wire Wire Line
+	3450 3150 3750 3150
+$Comp
+L power:GND #PWR?
+U 1 1 6192FB63
+P 3450 3350
+F 0 "#PWR?" H 3450 3100 50  0001 C CNN
+F 1 "GND" H 3455 3177 50  0000 C CNN
+F 2 "" H 3450 3350 50  0001 C CNN
+F 3 "" H 3450 3350 50  0001 C CNN
+	1    3450 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

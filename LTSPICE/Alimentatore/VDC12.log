@@ -1,0 +1,22 @@
+Circuit: * C:\Users\marco\Documents\GitHub\Marshall\LTSPICE\Alimentatore\VDC12.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Nov 13 18:32:39 2021
+Total elapsed time: 0.591 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 13174
+traniter = 13135
+tranpoints = 3450
+accept = 2574
+rejected = 876
+matrix size = 84
+fillins = 117
+solver = Normal
+Thread vector: 16.4/13.7[3] 16.8/7.2[3] 6.5/3.8[3] 1.1/1.8[1]  2592/500
+Matrix Compiler1: 20.17 KB object code size  10.4/6.0/[3.2]
+Matrix Compiler2: 11.22 KB object code size  3.3/4.2/[1.5]
+
