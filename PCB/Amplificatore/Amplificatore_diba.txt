@@ -1,0 +1,47 @@
+
+"Ref"	"Value"	"PN"	"Description"	"Vendor"
+
+
+------------------------------------
+871-B32621A6103M289 B32621A6103M289
+Condensatori a film FILM CAP MKP BOX 0.01uF 20% 630Vdc LS 10mm
+"C18"	"10nF"	"B32621A6103M289"	"Unpolarized capacitor"	" M: 871-B32621A6103M289"
+
+871-B32621A6103K189
+B32621A6103K189
+Condensatori a film 0.01uF 630volt 10%
+
+---------------------------------
+N. Mouser:   505-FKP2G002201D00JS
+N. produttore:   FKP2G002201D00JSSD
+Produttore:   WIMA
+Desc.:   Condensatori a film FKP 2 220 pF 400 VDC 4.5x6x7.2 PCM5
+"C19"	"220pF"	"FKP2G002201D00JSSD"	"Unpolarized capacitor"	" M: 505-FKP2G002201D00JS"
+
+505-FKP2G002201D00JS
+FKP2G002201D00JSSD
+Condensatori a film FKP 2 220 pF 400 VDC 4.5x6x7.2 PCM5
+
+------------  2 x
+N. Mouser:   80-R75QD0470DQ30J
+N. produttore:   R75QD0470DQ30J
+Desc.:   Condensatori a film 1000V 470pF 5% LS=7.5mm
+"C20"	"470pF"	"R75QD0470DQ30J"	"Unpolarized capacitor"	" M: 80-R75QD0470DQ30J"
+"C9"	"470pF"	"R75QD0470DQ30J"	"Unpolarized capacitor"	" M: 80-R75QD0470DQ30J"
+
+80-R75QD0470Z330J
+R75QD0470Z330J
+Condensatori a film 1000V 0.00047uF 5% LS=7.5mm
+
+------------ 3 x
+N. Mouser:   71-CRCW2512-1K-E3
+N. produttore:   CRCW25121K00FKEG
+Produttore:   Vishay
+Desc.:   Resistori a pellicola spessa - SMD 1watt 1Kohms 1%
+"R32"	"1K"	"CRCW25121K00FKEG"	"Resistor"	"M: 71-CRCW2512-1K-E3"
+"R33"	"1K"	"CRCW25121K00FKEG"	"Resistor"	"M: 71-CRCW2512-1K-E3"
+"R34"	"1K"	"CRCW25121K00FKEG"	"Resistor"	"M: 71-CRCW2512-1K-E3"
+
+279-CRGP2512F1K0
+CRGP2512F1K0
+Resistori a pellicola spessa - SMD CRGP 2512 1K0 1% SMD Resistor 500V

@@ -1,4 +1,4 @@
-update=27/09/2021 22:34:49
+update=21/11/2021 22:17:40
 version=1
 last_client=kicad
 [general]
@@ -244,8 +244,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=FILAMENTO
-Clearance=0.5
-TrackWidth=0.5
+Clearance=1
+TrackWidth=0.3
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -255,7 +255,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=HV
-Clearance=1
+Clearance=2
 TrackWidth=0.3
 ViaDiameter=0.8
 ViaDrill=0.4
